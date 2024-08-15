@@ -23,7 +23,7 @@
 };
 
 
-.card2{
+#card2{
     display: flex;
     border-color: #EE6983;
     width: 300px;
@@ -34,13 +34,15 @@
     padding: 20px;
     justify-content: center;
     flex-wrap: wrap;
+    
+
  
 }
 .card{
     background-color: #EE6983;
     border: 1px solid #ddd;
     border-radius: 10px;
-    max-width: 500px;
+    max-width: 250px;
     overflow: hidden;
     text-align: center;
     padding: 15px;

@@ -76,13 +76,17 @@ const cardJS = document.getElementById('card2');
 //Funcion para crear un card de usuario
 function crearCard(user) {
     const card = document.createElement('div');
-    card.classList.add('card', 'col-6', 'mb-4');
+    card.classList.add( 'col-6', 'mb-4');
     
     card.innerHTML = `
-        <img src="${user.img}" alt="${user.name}" class="card-img-top" >
-        <h2>${user.name}</h2>
-        <p>${user.position}</p>
-        <p>${user.description}</p>
+        <div class="card">
+            <img src="${user.img}" alt="${user.name}" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">${user.name}</h5>
+                <h6 class="card-subtitle mb-2 text-muted">${user.position}</h6>
+                <p class="card-text">${user.description}</p>
+            </div>
+        </div>
     `;
 
     return card;

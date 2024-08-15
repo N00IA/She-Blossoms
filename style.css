@@ -1,5 +1,9 @@
 
-  
+  /* colores
+  #FFF5E4 beige
+  #FFC4C4  peach
+  #EE6983  pink
+  #850E35  maroon*/
 
 .title{
     background-color: #EE6983;
@@ -29,15 +33,25 @@
     font-family: "Raleway", sans-serif; 
     padding: 20px;
     justify-content: center;
+    flex-wrap: wrap;
  
 }
 .card{
     background-color: #EE6983;
     border: 1px solid #ddd;
-    
+    border-radius: 10px;
+    max-width: 500px;
+    overflow: hidden;
+    text-align: center;
+    padding: 15px;
 
 }
+.card img{
+    width: 100%;
+    height: auto;
+    border:1px solid#ddd;
 
+}
 .prueba{
     padding: 20px;
     margin: 20px;    
@@ -46,6 +60,7 @@
 img {
     max-width: 400px;
     height: 400px;
+    margin: 10px;
 }
 
 .parrafo{
@@ -70,4 +85,20 @@ img {
  }
  .vision{
     font-style: italic;
+ }
+
+ .card:hover{
+    transform: scale(1.05);
+    box-shadow: #FFC4C4;
+ }
+ .card h2{
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #FFC4C4;
+ }
+ .card p{
+    font-size: 1rem;
+    color:#FFC4C4;
+    margin: 5px;
+
  }

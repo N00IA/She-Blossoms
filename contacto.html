@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+    emailjs.init('ewH8XuifHMaBIJGTm')
+    </script>
 </head>
 <body>
     <div class="container mt-5">
@@ -37,27 +42,27 @@
             let phone = document.getElementById("phone").value;
             let message = document.getElementById("message").value;
 
-            // Validar que el nombre no esté vacío y tenga al menos 3 caracteres
+            // Validamos que el nombre no esté vacío y tenga al menos 3 caracteres
             if (name.length < 3) {
                 alert("El nombre debe tener al menos 3 caracteres.");
                 return false;
             }
 
-            // Validar formato de correo electrónico usando regex
+            // Validamos formato de correo electrónico usando regex
             let emailRegex = /^[\\w-\\.]+@([\\w-]+\\.)+[\\w-]{2,4}$/;
             if (!emailRegex.test(email)) {
                 alert("Por favor, introduce un correo electrónico válido.");
                 return false;
             }
 
-            // Validar que el teléfono contenga solo números y tenga 10 dígitos
+            // Validamos que el teléfono contenga solo números y tenga 10 dígitos
             let phoneRegex = /^[0-9]{10}$/;
             if (!phoneRegex.test(phone)) {
                 alert("Por favor, introduce un número de teléfono válido de 10 dígitos.");
                 return false;
             }
 
-            // Validar que el mensaje no esté vacío
+            // Validamos que el mensaje no esté vacío
             if (message.trim() === "") {
                 alert("El mensaje no puede estar vacío.");
                 return false;
@@ -67,17 +72,35 @@
             sendForm();
             return true;
         }
-
+            // Aquí agregamos el código para enviar los datos del formulario
         function sendForm() {
-            // Aquí puedes agregar el código para enviar los datos del formulario
-            // a un correo electrónico usando una API de backend, como EmailJS.
-            // Este es solo un ejemplo:
-            alert("Formulario enviado con éxito!");
-        }
+            const serviceID= 'service_n1ipv8a'; // Service ID de EmailJS 
+            const templateID = 'template_btuxzsi'; //Template ID de EmailJS 
+            const publicKey = 'ewH8XuifHMaBIJGTm'; //Public Key de EmailJS 
+
+           
+            
+            // Obtenemos los datos del formulario
+            const formData = {
+                name: document.getElementById("name").value,
+                email: document.getElementById("email").value,
+                phone: document.getElementById("phone").value,
+                message: document.getElementById("message").value
+            };
+
+            // Envíamos el correo usando EmailJS
+            emailjs.send(serviceID, templateID, formData, publicKey)
+    .then(function(response) {
+        alert("¡El formulario se envió con éxito!");
+    }, function(error) {
+        alert("Hubo un error al enviar el formulario: " + JSON.stringify(error));
+    });
+}
+        
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    
-    <a href="mailto: "></body>a>
+  
+    <a href="mailto: sheblossomsbygalspower@gmail.com ">Envíanos un mail directo</body>
     <br>
     <a href="contacto.html">Regresar al inicio</a>
     <br>  

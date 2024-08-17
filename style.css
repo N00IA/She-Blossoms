@@ -46,7 +46,8 @@
     text-align: left;
     padding: 15px;
     justify-content: space-between;
-    max-width: 500px ;
+    width: 100%; /*No quitar*/
+    max-width: 600px ; /*No quitar*/
 }
 
 
@@ -58,6 +59,8 @@
     display: flex;
 
 }
+
+
 
 
 .card .text{

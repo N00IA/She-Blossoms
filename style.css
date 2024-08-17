@@ -6,13 +6,15 @@
   #850E35  maroon*/
 
 
-  
+  body {
+    font-family: "Raleway", sans-serif; /* Aplicado de manera general */
+  }
 
 .title{
     background-color: #EE6983;
     text-align: center ;
     border-bottom-right-radius: 60px;  /*hace el borde redondo*/
-    font-family: "Racing Sans One", sans-serif;
+    
     margin: 20px;
     height: auto;
     color:white;
@@ -21,6 +23,7 @@
     text-transform: uppercase;
     display: flex;
     align-items:center;
+    font-family: "Racing Sans One", sans-serif;
 };
 
 
@@ -31,7 +34,7 @@
     border-radius: 8px;
     border: 2px solid  #850E35;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    font-family: "Raleway", sans-serif; 
+
     padding: 20px;
     justify-content: center;
      
@@ -79,27 +82,10 @@
 }
 
 /*
-.card .text{
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-}
-*/
-
 .prueba{
     padding: 20px;
     margin: 20px;    
 };
-
-/*
-img {
-    max-width: 100%;
-    height: 100%;
-    margin: 10px;
-}
-    */
 
 .parrafo{
     font-family:"Raleway", sans-serif;
@@ -108,7 +94,7 @@ img {
     margin: 20px;
 }
 .mision, .vision{
-    font-family: "Raleway", sans-serif;
+ 
     font-size: 1.2rem;
     line-height: 1.6;
     margin: 20px;
@@ -125,11 +111,47 @@ img {
  .vision{
     font-style: italic;
  }
+*/
+
+/*Simplificado*/
+/* Estilos para prueba y párrafos */
+.prueba, .parrafo, .mision, .vision {
+    padding: 20px;
+    margin: 20px;
+    font-family: "Raleway", sans-serif; /* Aplicado de manera general */
+}
+
+/* Estilo para párrafos específicos */
+.parrafo {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+/* Estilos para misiones y visiones */
+.mision, .vision {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    background-color: #d8d7d7;
+    border-left: 5px solid;
+    border-radius: 30px;
+}
+
+.mision {
+    font-weight: bold;
+}
+
+.vision {
+    font-style: italic;
+}
+
+
 
  .card:hover{
     transform: scale(1.05);
     box-shadow: #FFC4C4;
+    box-shadow: 0 4px 8px rgba(255, 196, 196, 0.6); /* Color de sombra ajustado */
  }
+ 
  .card h2{
     font-size: 1.5rem;
     margin: 15px 0;

@@ -1,0 +1,22 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0c4dc;
+}
+
+.josefin-font {
+    font-family: 'Josefin Sans', sans-serif;
+}
+body {
+    font-family: 'Helvetica', sans-serif;
+}
+
+.custom-button {
+    background-color: #800000;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+.custom-button:hover {
+    background-color: #a34e60;
+    color: #ffece7;
+}

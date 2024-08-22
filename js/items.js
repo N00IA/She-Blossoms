@@ -16,42 +16,65 @@ const products = [
 
 console.log(products);
 
+//Alch me lo robe de Chatgpt por que ya estaba harta
+
 //Muestra el fomrulario para agregar producto
 
 // Función para agregar un producto al array
 function addProduct(product) {
   products.push(product);
+
+  
 }
+
+// Función para eliminar un producto del array
+function removeProduct(productId) {
+  const index = products.findIndex(p => p.id === productId);
+  if (index !== -1) {
+      products.splice(index, 1);
+  }
+}
+
+// Función para manejar la eliminación de un producto y la actualización de la vista
+function removeProductAndRender(productId) {
+  removeProduct(productId);
+  displayProducts();
+  console.log(products);
+}
+
 // Espera a que el contenido del DOM se cargue completamente
 document.addEventListener('DOMContentLoaded', function() {
-  // Obtén el div que contiene el formulario y el botón por sus ID
   const formContainer = document.getElementById('formContainer');
   const showFormButton = document.getElementById('showFormButton');
   const productForm = document.getElementById('productForm');
+  const showDeleteButtons = document.getElementById('showDeleteButtons');
 
   // Muestra los productos inicialmente
   displayProducts();
 
-  // Agrega un event listener al botón para mostrar el formulario
   showFormButton.addEventListener('click', function() {
       formContainer.style.display = 'block';
   });
 
-  // Maneja el envío del formulario
+  showDeleteButtons.addEventListener('click', function() {
+      // Alterna la visibilidad de los botones de eliminar
+      const deleteButtons = document.querySelectorAll('.deleteButton');
+      deleteButtons.forEach(button => {
+          button.classList.toggle('show');
+      });
+  });
+
   productForm.addEventListener('submit', function(event) {
       event.preventDefault(); // Evita el envío del formulario y la recarga de la página
 
-      // Obtiene los valores del formulario
       const name = document.getElementById('productName').value;
       const description = document.getElementById('productDescription').value;
       const img = document.getElementById('productImg').value;
       const price = document.getElementById('productPrice').value;
       const shop = document.getElementById('productShop').value;
 
-      // Genera un nuevo ID para el producto
       const newId = products.length ? Math.max(products.map(p => p.id)) + 1 : 1;
 
-      // Crea un nuevo producto
       const newProduct = {
           id: newId,
           name: name,
@@ -61,23 +84,38 @@ document.addEventListener('DOMContentLoaded', function() {
           shop: shop
       };
 
-      // Llama a la función para agregar el producto
       addProduct(newProduct);
 
-      // Limpia el formulario y oculta el div
       productForm.reset();
       formContainer.style.display = 'none';
 
-      // Vuelve a renderizar los productos
       displayProducts();
   });
 });
   
 
+function agregarProducto(id, nombre, imagen, descripcion, precio, tienda) {
+  if (!id || !nombre || !imagen || !descripcion || !precio || !tienda) {
+    console.error ('Error: faltan parámetros para agregar producto');
+    return;
+  }
+  
+  const nuevoProducto = {
+      id,
+      name: nombre,
+      description: descripcion,  
+      img: imagen
+  };
+  products.push(nuevoProducto);
+  console.log('Producto agregado', nuevoProducto);
+  displayProducts();
+  mostrarProductosEnJSON();
+}
+
 
 //Funciones
 //Agregar producto
-function agregarProducto(id, nombre, imagen, descripcion) {
+/* function agregarProducto(id, nombre, imagen, descripcion) {
   if (!id || !nombre || !imagen || !descripcion) {
     console.error ('Error: faltan parámetros para agregar producto');
     return;
@@ -93,6 +131,7 @@ function agregarProducto(id, nombre, imagen, descripcion) {
   displayProducts();
   mostrarProductosEnJSON();
 }
+  */
   
 
 //Modificar producto
@@ -170,6 +209,7 @@ function displayProducts(products) {
                   <h5 class="card-title">${product.name}</h5>
                   <p class="card-text"><strong>${product.price}</strong></p>
                   <p class="card-text">${product.description}</p>
+                  <button class="deleteButton" onclick="removeProductAndRender(${product.id})">Eliminar</button>
               </div>
           </div>
       `;
@@ -178,16 +218,6 @@ function displayProducts(products) {
       container.appendChild(card);
   });
 }
-
-// Llamar a la función para mostrar los productos al cargar la página
-//displayProducts(products);
-
-
-
-  //Por alguna razon, si se activa, no muestra las cards, IDK :'v
-  //export default ItemsController; //Este es el culpable XD
-
-
 
 
 // Mostrar productos en formato JSON
@@ -211,7 +241,8 @@ function displayProducts() {
               <div class="card-body">
                   <h5 class="card-title">${product.name}</h5>
                   <p class="card-text"><strong>$${product.price}</strong></p>
-                  <p class="card-text">${product.description}</p>
+                  <p>Tienda: ${product.shop || 'No disponible'}</p>
+            <button class="deleteButton" onclick="removeProductAndRender(${product.id})">Eliminar</button>
               </div>
           </div>
       `;

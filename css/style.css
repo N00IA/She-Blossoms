@@ -112,7 +112,8 @@ button{
     transform: translateY();
 }
 
-#formContainer {
+ /* Estilos para ocultar el formulario y el botón de eliminar inicialmente */
+ #formContainer {
     display: none;
     border: 1px solid #ccc;
     padding: 20px;
@@ -120,3 +121,26 @@ button{
     width: 300px;
     background-color: #f9f9f9;
 }
+.deleteButton{
+    display: none;
+}
+
+.card button {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none; /* Oculta el botón de eliminar inicialmente */
+}
+
+.card button.show {
+    display: block; /* Muestra el botón de eliminar si tiene la clase "show" */
+}
+
+
+

@@ -15,7 +15,7 @@ let team = [
         name: 'Pao Flores',
         position:'DevOps',
         img: '/She-Blossoms/img/pao.jpeg', 
-        description: 'Soy ingeniera petrolera recién egresada de ESIA IPN con una sólida formación en análisis técnico y resolución de problemas. Mi experiencia en el campo de la ingeniería petrolera me ha dotado de habilidades analíticas y una comprensión profunda de sistemas complejos.',
+        description: 'Soy ingeniera petrolera con una sólida formación en análisis técnico y resolución de problemas. Mi experiencia en el campo de la ingeniería petrolera me ha dotado de habilidades analíticas y una comprensión profunda de sistemas complejos.',
 
     },
     { //4

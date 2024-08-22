@@ -1,53 +1,98 @@
 const products = [
 
-    { id: 1, name: 'Peluche Capybara', description: 'Capybara almohada termica', img: 'https://m.media-amazon.com/images/I/81sjyvkKStL.__AC_SX300_SY300_QL70_ML2_.jpg', price: '$350', shop: 'Moon' },
-    { id: 2, name: 'Cupcakes', description: 'Cupcakes sabor vainilla', img: 'https://via.placeholder.com/200', price: '$250' },
-    { id: 3, name: 'Peluche Langosta', description: 'Peluche térmico para colicos', img: 'https://m.media-amazon.com/images/I/81HfxBV64lL.__AC_SX300_SY300_QL70_ML2_.jpg', price: '$650', shop: 'Moon' },
-    { id: 4, name: 'Stickers holográficos', description: 'Stickers - Docena', img: 'https://via.placeholder.com/200', price: '$150', shop: 'Moon' },
-    { id: 5, name: 'Chocolates finos', description: 'Caja de 20 piezas', img: 'https://via.placeholder.com/200', price: '$320', shop: 'Moon' },
-    { id: 6, name: 'Libretas con foto personalizadas', description: 'Por pieza', img: 'https://via.placeholder.com/200', price: '$245', shop: 'Moon' },
-    { id: 7, name: 'Stickers personalizados', description: 'Por pieza', img: 'https://via.placeholder.com/200', price: '$20', shop: 'Moon' },
-    { id: 8, name: 'Fresas con chocolate', description: '¡Deliciosas!', img: 'https://via.placeholder.com/200', price: '$150' , shop: 'Moon'},
-    { id: 9, name: 'Set de accesorios', description: 'Set de 2 collares y 2 pares de aretes', img: 'https://via.placeholder.com/200', price: '$650', shop: 'Moon' },
-    { id: 10, name: 'Corset cuerina', description: 'Corset cinturón de cuero Gótico', img: 'https://via.placeholder.com/200', price: '$950', shop: 'Moon' },
-    { id: 11, name: 'choco-corazones', description: 'Por docena', img: 'https://scontent.fmex1-6.fna.fbcdn.net/v/t1.6435-9/81755074_791639387979401_6162130265519947776_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=06a7ca&_nc_eui2=AeEQH567q8NCvNcLTYh8n1YCZvgc6OPVGvBm-Bzo49Ua8P3x5l-DW50stoSVr_vXv94HRyd_mUPumkBKyKlMRVn3&_nc_ohc=O32_DI5C1TMQ7kNvgHqz89T&_nc_ht=scontent.fmex1-6.fna&oh=00_AYD4ttIjPVTwlUD5BybVy9ZVEyMdAZyebCgREOYMjuBZ-w&oe=66EDDD0C', price: '$220', shop: 'Moon' },
-    { id: 12, name: 'Orquideas en maceta', description: 'Símbolo de amor y belleza', img: 'https://verdecora.es/blog/wp-content/uploads/2021/04/orquidea-flor.jpg.webp', price: '$290', shop: 'Moon' },
+    { id: 1, name: 'Peluche Capybara', description: 'Capybara almohada térmica', img: 'https://m.media-amazon.com/images/I/81sjyvkKStL.__AC_SX300_SY300_QL70_ML2_.jpg', price: '350', shop: 'Moon' },
+    { id: 2, name: 'Cupcakes', description: 'Cupcakes sabor vainilla', img: 'https://scontent.fmex15-1.fna.fbcdn.net/v/t1.18169-9/22853102_355588044868006_1929324473630940193_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=7b2446&_nc_ohc=ENqV4oaQRcEQ7kNvgEkHPnM&_nc_ht=scontent.fmex15-1.fna&oh=00_AYBYtv0jkiprMfJ-yZUOcq7ifujlzuaeH-2XMlUazIOLrg&oe=66EE1B35', price: '250' },
+    { id: 3, name: 'Peluche Langosta', description: 'Peluche térmico para colicos', img: 'https://m.media-amazon.com/images/I/81HfxBV64lL.__AC_SX300_SY300_QL70_ML2_.jpg', price: '650', shop: 'Moon' },
+    { id: 4, name: 'Stickers holográficos', description: 'Stickers - Docena', img: 'https://maddysdeco.uy/wp-content/uploads/2023/05/IMG_20230515_113342_861.webp', price: '150', shop: 'Moon' },
+    { id: 5, name: 'Chocolates finos', description: 'Caja de 20 piezas', img: 'https://andreacalero.com/wp-content/uploads/2020/02/airbrush_20190712132627.jpg', price: '320', shop: 'Moon' },
+    { id: 6, name: 'Libretas con foto personalizadas', description: 'Por pieza', img: 'https://bespokeboxstationery.com/wp-content/uploads/2023/09/custom-made-notebooks.webp', price: '245', shop: 'Moon' },
+    { id: 7, name: 'Stickers personalizados', description: 'Por pieza', img: 'https://m.media-amazon.com/images/S/aplus-media-library-service-media/d295f675-44a1-4a3d-b3e3-eb6c93c74d19.__CR0,0,300,300_PT0_SX300_V1___.jpg', price: '20', shop: 'Moon' },
+    { id: 8, name: 'Fresas con chocolate', description: '¡Deliciosas!', img: 'https://scontent.fmex1-4.fna.fbcdn.net/v/t39.30808-6/214148761_1167620486998087_5524970313320128551_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=3a1ebe&_nc_eui2=AeHbRiOlYoiF46avwIIkcCLatcuFNm3ohsS1y4U2beiGxDDTHQFDyleBPDHOos1-Pd1VHWW5PAlwaPSh86-8G3hd&_nc_ohc=A97TFn3vtycQ7kNvgGQQ8dv&_nc_ht=scontent.fmex1-4.fna&oh=00_AYC73WYvNmVMBEoTEx8GiJ0YZO93IrJa2f1MI_HHSumiMQ&oe=66CD6D4A', price: '150' , shop: 'Moon'},
+    { id: 9, name: 'Set de accesorios', description: 'Set de 2 collares y 2 pares de aretes', img: 'https://i.pinimg.com/736x/03/1e/4e/031e4e004d97fa47be03a9cbae97fe57.jpg', price: '650', shop: 'Moon' },
+    { id: 10, name: 'Corset cuerina', description: 'Corset cinturón de cuero Gótico', img: 'https://ae-pic-a1.aliexpress-media.com/kf/H9894f864bc764cf0b44127681a89ed97a/Arn-s-de-cuero-Sexy-para-mujer-correa-el-stica-ultraancha-decorativa-con-faldas-y-cierre.jpg_.webp', price: '950', shop: 'Moon' },
+    { id: 11, name: 'choco-corazones', description: 'Por docena', img: 'https://scontent.fmex1-6.fna.fbcdn.net/v/t1.6435-9/81755074_791639387979401_6162130265519947776_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=06a7ca&_nc_eui2=AeEQH567q8NCvNcLTYh8n1YCZvgc6OPVGvBm-Bzo49Ua8P3x5l-DW50stoSVr_vXv94HRyd_mUPumkBKyKlMRVn3&_nc_ohc=O32_DI5C1TMQ7kNvgHqz89T&_nc_ht=scontent.fmex1-6.fna&oh=00_AYD4ttIjPVTwlUD5BybVy9ZVEyMdAZyebCgREOYMjuBZ-w&oe=66EDDD0C', price: '220', shop: 'Moon' },
+    { id: 12, name: 'Orquideas en maceta', description: 'Símbolo de amor y belleza', img: 'https://verdecora.es/blog/wp-content/uploads/2021/04/orquidea-flor.jpg.webp', price: '290', shop: 'Moon' },
 ];
 
+console.log(products);
 
+//Muestra el fomrulario para agregar producto
 
+// Función para agregar un producto al array
+function addProduct(product) {
+  products.push(product);
+}
+// Espera a que el contenido del DOM se cargue completamente
+document.addEventListener('DOMContentLoaded', function() {
+  // Obtén el div que contiene el formulario y el botón por sus ID
+  const formContainer = document.getElementById('formContainer');
+  const showFormButton = document.getElementById('showFormButton');
+  const productForm = document.getElementById('productForm');
 
+  // Muestra los productos inicialmente
+  displayProducts();
 
-class ItemsController { //Segun el ejemplo :V Oigansss! busqué en gemini esto de ItemsController y me sale esto:
-  /*Inicialización innecesaria: La clase ItemsController no es necesaria en este contexto. Puedes eliminar la clase y trabajar directamente con el arreglo products. pero noc*/ 
-  /*Janice : :0 no manches.... pues podriamos preguntar a Mar o Zab, si si es muy necesario
-  Hasta el momento, de hecho, nos marca error si lo inetentamos implementar :v */
-    constructor() {
-      this.items = [];
-    }
-    // Metodos
-  }
+  // Agrega un event listener al botón para mostrar el formulario
+  showFormButton.addEventListener('click', function() {
+      formContainer.style.display = 'block';
+  });
 
+  // Maneja el envío del formulario
+  productForm.addEventListener('submit', function(event) {
+      event.preventDefault(); // Evita el envío del formulario y la recarga de la página
+
+      // Obtiene los valores del formulario
+      const name = document.getElementById('productName').value;
+      const description = document.getElementById('productDescription').value;
+      const img = document.getElementById('productImg').value;
+      const price = document.getElementById('productPrice').value;
+      const shop = document.getElementById('productShop').value;
+
+      // Genera un nuevo ID para el producto
+      const newId = products.length ? Math.max(products.map(p => p.id)) + 1 : 1;
+
+      // Crea un nuevo producto
+      const newProduct = {
+          id: newId,
+          name: name,
+          description: description,
+          img: img,
+          price: price,
+          shop: shop
+      };
+
+      // Llama a la función para agregar el producto
+      addProduct(newProduct);
+
+      // Limpia el formulario y oculta el div
+      productForm.reset();
+      formContainer.style.display = 'none';
+
+      // Vuelve a renderizar los productos
+      displayProducts();
+  });
+});
   
-  
-  //Funciones
-  //Agregar producto
-  function agregarProducto(id, nombre, imagen, descripcion) {
-    if (!id || !nombre || !imagen || !descripcion) {
-      console.error ('Error: faltan parámetros para agregar producto');
-      return;
-    }
-    const nuevoProducto = {
-        id,
-        name: nombre,
-        description: descripcion,  
-        img: imagen
-    };
-    products.push(nuevoProducto);
-    console.log('Producto agregado', nuevoProducto);
-    displayProducts();
-    mostrarProductosEnJSON();
+
+
+//Funciones
+//Agregar producto
+function agregarProducto(id, nombre, imagen, descripcion) {
+  if (!id || !nombre || !imagen || !descripcion) {
+    console.error ('Error: faltan parámetros para agregar producto');
+    return;
   }
+  const nuevoProducto = {
+      id,
+      name: nombre,
+      description: descripcion,  
+      img: imagen
+  };
+  products.push(nuevoProducto);
+  console.log('Producto agregado', nuevoProducto);
+  displayProducts();
+  mostrarProductosEnJSON();
+}
   
 
 //Modificar producto
@@ -123,7 +168,7 @@ function displayProducts(products) {
               <img src="${product.img}" class="card-img-top" alt="${product.name}">
               <div class="card-body">
                   <h5 class="card-title">${product.name}</h5>
-                  <p class="card-text"><strong>$${product.price}</strong></p>
+                  <p class="card-text"><strong>${product.price}</strong></p>
                   <p class="card-text">${product.description}</p>
               </div>
           </div>
@@ -135,47 +180,14 @@ function displayProducts(products) {
 }
 
 // Llamar a la función para mostrar los productos al cargar la página
-displayProducts(products);
-
-
-/*
-// Función para mostrar las tarjetas
-function displayCards(products) {
-    const container = document.getElementById('cards-container');
-    
-    products.forEach(product => {
-        const card = document.createElement('div');
-        card.className = 'card';
-        
-        const img = document.createElement('img');
-        img.src = product.img;
-        card.appendChild(img);
-        
-        const cardContent = document.createElement('div');
-        cardContent.className = 'card-content';
-        
-        const title = document.createElement('h3');
-        title.textContent = product.name;
-        cardContent.appendChild(title);
-        
-        const description = document.createElement('p');
-        description.textContent = product.description;
-        cardContent.appendChild(description);
-        
-        card.appendChild(cardContent);
-        container.appendChild(card);
-    });
-}
-
-// Llamar a la función para mostrar las tarjetas
-displayCards(products);
+//displayProducts(products);
 
 
 
   //Por alguna razon, si se activa, no muestra las cards, IDK :'v
   //export default ItemsController; //Este es el culpable XD
 
-*/
+
 
 
 // Mostrar productos en formato JSON
@@ -214,5 +226,13 @@ function init() {
   mostrarProductosEnJSON();
 }
 
+
+
 // Llamar a la función de inicialización al cargar la página
 init();
+
+
+// Asocia la función al evento click del botón
+//document.getElementById('agregar').addEventListener('click', agregarProducto);
+//document.getElementById('eliminar').addEventListener('click', agregarProducto);
+

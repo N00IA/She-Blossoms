@@ -1,0 +1,349 @@
+
+  /* colores
+  #FFF5E4 beige
+  #FFC4C4  peach
+  #EE6983  pink
+  #850E35  maroon*/
+
+
+  body {
+    font-family: "Raleway", sans-serif; /* Aplicado de manera general */
+  }
+
+.title{
+    background-color: #EE6983;
+    text-align: center ;
+    border-bottom-right-radius: 60px;  /*hace el borde redondo*/
+    
+    margin: 20px;
+    height: auto;
+    color:white;
+    padding: 20px;
+    justify-content: center;
+    text-transform: uppercase;
+    display: flex;
+    align-items:center;
+    font-family: "Racing Sans One", sans-serif;
+};
+
+
+#card2{
+    
+    border-color: #EE6983;
+    overflow: hidden;
+    border-radius: 8px;
+    border: 2px solid  #850E35;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    padding: 20px;
+    justify-content: center;
+     
+}
+
+.card{
+    /*Fondo */
+    display: flex;
+    background-color: #EE6983;
+    border: 1px solid #EE6983;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: left;
+    padding: 15px;
+    justify-content: space-between;
+    width: 100%; /*No quitar*/
+    max-width: 600px ; /*No quitar*/
+}
+
+.card {
+    flex-direction: row; /* Por defecto, las imágenes estarán a la izquierda */
+}
+
+
+.card img{
+    width: 200px ;
+    height: auto;
+    border:1px solid#ddd;
+    margin-right: 10px;
+}
+
+/* Contenedor de la imagen */
+.cont-imagen {
+    flex: 0 0 auto; /* No permite que el contenedor de la imagen se estire */
+}
+
+.card-img-top {
+    width: 150px; /* Ajusta el ancho según sea necesario */
+    height: 150px; /* Ajusta el alto según sea necesario */
+    object-fit: cover; /* Ajusta la imagen dentro del contenedor */
+}
+
+/* Contenedor del texto */
+.card-body {
+    padding: 15px;
+    flex: 1; /* Permite que el contenido ocupe el espacio restante */
+}
+
+/*
+.prueba{
+    padding: 20px;
+    margin: 20px;    
+};
+
+.parrafo{
+    font-family:"Raleway", sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin: 20px;
+}
+.mision, .vision{
+ 
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin: 20px;
+    padding: 15px;
+    background-color: #d8d7d7;
+    border-left: 5px solid;
+    border-radius: 30px;
+
+    
+}
+ .mision{
+    font-weight: bold;
+ }
+ .vision{
+    font-style: italic;
+ }
+*/
+
+/*Simplificado*/
+/* Estilos para prueba y párrafos */
+.prueba, .parrafo, .mision, .vision {
+    padding: 20px;
+    margin: 20px;
+    font-family: "Raleway", sans-serif; /* Aplicado de manera general */
+}
+
+/* Estilo para párrafos específicos */
+.parrafo {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+/* Estilos para misiones y visiones */
+.mision, .vision {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    background-color: #d8d7d7;
+    border-left: 5px solid;
+    border-radius: 30px;
+}
+
+.mision {
+    font-weight: bold;
+}
+
+.vision {
+    font-style: italic;
+}
+
+
+
+ .card:hover{
+    transform: scale(1.05);
+    box-shadow: #FFC4C4;
+    box-shadow: 0 4px 8px rgba(255, 196, 196, 0.6); /* Color de sombra ajustado */
+ }
+ 
+ .card h2{
+    font-size: 1.5rem;
+    margin: 15px 0;
+    color: #FFC4C4;
+ }
+
+ .card h5{
+    color:#160108;
+ }
+ 
+ .card p{
+    font-size: 1rem;
+    color:#FFC4C4;
+    margin: 5px 0;
+
+ }
+
+
+ /*Efectos raros*/
+ .bg-6{
+    background-color: #EE6983;
+    align-content: center;
+}
+
+.glitch {
+    color: white;
+    font-size: 25px;
+    position:relative;
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Varela', sans-serif;
+    align-items: center;
+ }
+
+.glitch:after {
+    content: attr(data-text);
+    position: absolute;
+    left: 16px;
+    text-shadow: -1px 0 red;
+    top: 0;
+    color: white;
+    background:  #EE6983;
+    overflow: hidden;
+    clip: rect(0, 900px, 0, 0);
+    animation: noise-anim 2s infinite linear alternate-reverse;
+    text-align: center;
+}
+
+.glitch:before {
+    content: attr(data-text);
+    position: absolute;
+    left: 8px;
+    text-shadow: 1px 0 blue;
+    top: 0;
+    color: white;
+    background:  #EE6983;
+    overflow: hidden;
+    clip: rect(0, 900px, 0, 0);
+    animation: noise-anim-2 3s infinite linear alternate-reverse;
+    text-align: center;
+}
+
+ @keyframes noise-anim {
+    0% {
+      clip: rect(51px, 9999px, 28px, 0);
+    }
+    5% {
+      clip: rect(70px, 9999px, 19px, 0);
+    }
+    10% {
+      clip: rect(92px, 9999px, 13px, 0);
+    }
+    15% {
+      clip: rect(85px, 9999px, 49px, 0);
+    }
+    20% {
+      clip: rect(45px, 9999px, 56px, 0);
+    }
+    25% {
+      clip: rect(26px, 9999px, 31px, 0);
+    }
+    30% {
+      clip: rect(62px, 9999px, 73px, 0);
+    }
+    35% {
+      clip: rect(34px, 9999px, 11px, 0);
+    }
+    40% {
+      clip: rect(26px, 9999px, 61px, 0);
+    }
+    45% {
+      clip: rect(34px, 9999px, 71px, 0);
+    }
+    50% {
+      clip: rect(35px, 9999px, 69px, 0);
+    }
+    55% {
+      clip: rect(92px, 9999px, 81px, 0);
+    }
+    60% {
+      clip: rect(26px, 9999px, 85px, 0);
+    }
+    65% {
+      clip: rect(2px, 9999px, 68px, 0);
+    }
+    70% {
+      clip: rect(54px, 9999px, 79px, 0);
+    }
+    75% {
+      clip: rect(35px, 9999px, 85px, 0);
+    }
+    80% {
+      clip: rect(70px, 9999px, 60px, 0);
+    }
+    85% {
+      clip: rect(32px, 9999px, 26px, 0);
+    }
+    90% {
+      clip: rect(94px, 9999px, 53px, 0);
+    }
+    95% {
+      clip: rect(99px, 9999px, 92px, 0);
+    }
+    100% {
+      clip: rect(42px, 9999px, 27px, 0);
+    }
+  }
+
+  @keyframes noise-anim-2 {
+    0% {
+      clip: rect(21px, 9999px, 49px, 0);
+    }
+    5% {
+      clip: rect(27px, 9999px, 52px, 0);
+    }
+    10% {
+      clip: rect(21px, 9999px, 70px, 0);
+    }
+    15% {
+      clip: rect(65px, 9999px, 25px, 0);
+    }
+    20% {
+      clip: rect(24px, 9999px, 10px, 0);
+    }
+    25% {
+      clip: rect(61px, 9999px, 64px, 0);
+    }
+    30% {
+      clip: rect(34px, 9999px, 47px, 0);
+    }
+    35% {
+      clip: rect(46px, 9999px, 93px, 0);
+    }
+    40% {
+      clip: rect(46px, 9999px, 9px, 0);
+    }
+    45% {
+      clip: rect(67px, 9999px, 36px, 0);
+    }
+    50% {
+      clip: rect(72px, 9999px, 20px, 0);
+    }
+    55% {
+      clip: rect(79px, 9999px, 26px, 0);
+    }
+    60% {
+      clip: rect(13px, 9999px, 87px, 0);
+    }
+    65% {
+      clip: rect(10px, 9999px, 25px, 0);
+    }
+    70% {
+      clip: rect(85px, 9999px, 11px, 0);
+    }
+    75% {
+      clip: rect(94px, 9999px, 35px, 0);
+    }
+    80% {
+      clip: rect(50px, 9999px, 86px, 0);
+    }
+    85% {
+      clip: rect(74px, 9999px, 67px, 0);
+    }
+    90% {
+      clip: rect(1px, 9999px, 40px, 0);
+    }
+    95% {
+      clip: rect(3px, 9999px, 48px, 0);
+    }
+    100% {
+      clip: rect(90px, 9999px, 23px, 0);
+    }
+  }

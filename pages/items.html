@@ -1,11 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de Productos</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
 </head>
 <body>
    
@@ -13,12 +17,54 @@
  <div id="navbar-placeholder"></div>
  <script src="/NAVBAR/navbar.js"></script>
 
+ <!--Container de boostrap ya permite que sea responsivo-->
     <div class="container">
         <h1>Lista de Productos</h1>
         <p>Aquí puedes ver la lista de items.</p>
+        
+ <!-- Div que contiene el formulario -->
+    <div id="formContainer">
+        <form id="productForm">
+            <h2>Agregar Producto</h2>
+            <label for="productName">Nombre del Producto:</label>
+            <input type="text" id="productName" name="productName" required>
+            <br><br>
+            <label for="productDescription">Descripción:</label>
+            <input type="text" id="productDescription" name="productDescription">
+            <br><br>
+            <label for="productImg">URL de la Imagen:</label>
+            <input type="url" id="productImg" name="productImg">
+            <br><br>
+            <label for="productPrice">Precio:</label>
+            <input type="number" id="productPrice" name="productPrice" step="0.01" required>
+            <br><br>
+            <label for="productShop">Tienda:</label>
+            <input type="text" id="productShop" name="productShop">
+            <br><br>
+            <input type="submit" value="Agregar">
+        </form>
     </div>
 
+
+        <div class="btn">
+            <button type="button" class="btn btn-primary" id="showFormButton">Agregar producto</button>
+            <button type="button" class="btn btn-secondary " id="showDeleteButtons"  >Eliminar producto</button>
+        </div>
+        <div class="container">
+            <div class="row" id="card-container">
+                <!-- Las tarjetas se generarán aquí por JavaScript -->
+            </div>
+
+
+    </div>
+
+
+
+    <!--Scripts-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="../js/main.js"></script>
+   
+    <script src="../js/items.js"></script>
+
+    
 </body>
 </html>

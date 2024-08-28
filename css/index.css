@@ -1,0 +1,95 @@
+/* colores
+  #FFF5E4 beige
+  #FFC4C4  peach
+  #EE6983  pink
+  #850E35  maroon*/
+
+  body {
+    font-family: 'Raleway', sans-serif;
+    background-color:  #FFC4C4;
+    margin: 0;
+    padding: 0;
+
+}
+#navbar-placeholder{
+    margin-bottom: 20px;
+}
+.Racing Sans One-font {
+    font-family: 'Racing', sans-serif;
+}
+body {
+    font-family: 'Helvetica', sans-serif;
+}
+
+.custom-button {
+    background-color: #800000;
+    border: 2px solid #850E35;
+    color: #850E35;
+}
+
+.custom-button:hover {
+    background-color: #a34e60;
+    color: #850E35;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 1rem;
+}
+.flex{
+    display: flex;
+}
+.flex-col{
+    flex-direction: column;
+}
+.items-center{
+    align-items: center;
+}
+.tex-center{
+    text-align: center;
+}
+
+h1.josefin-font{
+    font-family: "Racing Sans One", sans-serif;
+    color: #850E35 ;
+}
+
+.rounded-lg{
+    border-radius: 0.5rem;
+ 
+}
+.shadow-md{
+    box-shadow: 0 4px 6px rgb(0,0,0,0.1);
+}
+.overflow-hidden{
+    overflow: hidden;
+}
+.w-full{
+    width: 100%;
+}
+.p-4{
+    padding: 1rem;
+}
+
+span.text.lg{
+    font-size: 1.12rem;
+}
+.far.fa-star{
+    color: #FFC4C4;
+}
+@media(min-width: 640px){
+    .sm\:grid-cols-4{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (min-width: 768px) {
+    .md\:grid-cols-4 {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.grid{
+    display: grid;
+}
+

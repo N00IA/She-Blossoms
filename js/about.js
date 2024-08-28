@@ -1,5 +1,5 @@
 const parrafo = document.querySelector('.parrafo').textContent= 'She - blossom es  un e-commerce dirigido a mujeres emprendedoras que busquen vender sus productos nuevos de cualquier tipo. Las vendedoras pueden crear su propio perfil y mostrar su trabajo; por otro lado, los compradores pueden registrarse  y revisar el contenido mediante las distintas categorías.';
-document.querySelector('.mision').textContent='Nuestra misión es crear un espacio inclusivo y accesible donde puedas exhibir y vender tus productos con facilidad, generando así un impacto positivo en tu hogar y comunidad.'
+document.querySelector('.mision').textContent="Nuestra misión es crear un espacio inclusivo y accesible donde puedas exhibir y vender tus productos con facilidad, generando así un impacto positivo en tu hogar y comunidad."
 document.querySelector('.vision').textContent='Ser la plataforma de e-commerce más utilizada por mujeres emprendedoras en la CDMX, Edo. Mex, Guadalajara y Puebla; la cual busca posicionarse en el mercado en 5 años. Crear una comunidad y espacio seguro para desenvolver negocios y personalidades con el fin de florecer.'
 
 
@@ -14,7 +14,7 @@ let team = [
     { //2
         name: 'Pao Flores',
         position:'DevOps',
-        img: '/img/pao.jpeg', 
+      img: '/img/pao.jpeg', 
         description: 'Soy ingeniera petrolera recién egresada de ESIA IPN con una sólida formación en análisis técnico y resolución de problemas. Mi experiencia en el campo de la ingeniería petrolera me ha dotado de habilidades analíticas y una comprensión profunda de sistemas complejos.',
 
     },

@@ -1,5 +1,6 @@
 const products = [
 
+tarea1-2-3
     { id: 1, name: 'Peluche Capybara', description: 'Capybara almohada térmica', img: '/img/Capybara.jpg', price: '350', shop: 'Moon' },
     { id: 2, name: 'Cupcakes', description: 'Cupcakes sabor vainilla', img: 'https://scontent.fmex15-1.fna.fbcdn.net/v/t1.18169-9/22853102_355588044868006_1929324473630940193_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=7b2446&_nc_ohc=ENqV4oaQRcEQ7kNvgEkHPnM&_nc_ht=scontent.fmex15-1.fna&oh=00_AYBYtv0jkiprMfJ-yZUOcq7ifujlzuaeH-2XMlUazIOLrg&oe=66EE1B35', price: '250' },
     { id: 3, name: 'Peluche Langosta', description: 'Peluche térmico para colicos', img: 'https://m.media-amazon.com/images/I/41qSBvSZ4GL._AC_.jpg', price: '650', shop: 'Moon' },
@@ -12,13 +13,16 @@ const products = [
     { id: 10, name: 'Corset cuerina', description: 'Corset cinturón de cuero Gótico', img: '/img/Corset.jpg', price: '950', shop: 'Moon' },
     { id: 11, name: 'choco-corazones', description: 'Por docena', img: '/img/chococorazones.jpg', price: '220', shop: 'Moon' },
     { id: 12, name: 'Orquideas en maceta', description: 'Símbolo de amor y belleza', img: 'https://i.pinimg.com/736x/64/9d/3c/649d3c04df8965793241e3dc36f99baf.jpg', price: '290', shop: 'Moon' },
+
 ];
 
 console.log(products);
 
+ tarea1-2-3
  
 
 //Muestra el formulario para agregar producto
+
 
 // Función para agregar un producto al array
 function addProduct(product) {
@@ -95,9 +99,6 @@ document.addEventListener('DOMContentLoaded', function() {
   
 
 
-
-
-
 // Mostrar productos en la interfaz
 function displayProducts() {
   const container = document.getElementById("card-container");
@@ -126,7 +127,6 @@ function displayProducts() {
 // Función de inicio
 function init() {
   displayProducts();
-
 }
 
 

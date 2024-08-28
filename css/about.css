@@ -1,0 +1,158 @@
+
+  /* colores
+  #FFF5E4 beige
+  #FFC4C4  peach
+  #EE6983  pink
+  #850E35  maroon*/
+
+
+html, body {
+  font-family: Arial, sans-serif;
+  background-color: #FFF5E4;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+
+
+#card2 {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+
+.card {
+  height: 290px;
+  width: 350px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 0 20px;
+
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.cont-imagen {
+  overflow: hidden;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-img-top {
+  width: 200%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.3s ease;
+}
+
+.card-img-top:hover {
+  opacity: 0.9;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  margin: 0;
+  color: #333;
+}
+
+.card-subtitle {
+  font-size: 1rem;
+  color: #888;
+}
+
+.card-text {
+  font-size: 0.875rem;
+  color: #000;
+}
+
+/* Botones con estilos modernos */
+.btn {
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-primary {
+  color: #ffffff;
+  background-color: #850E35;
+  border: 1px solid #850E35;
+}
+
+.btn-primary:hover {
+  background-color: #a5396b;
+  color: #fff;
+  transform: scale(1.05);
+}
+
+.btn-secondary {
+  color: #ffffff;
+  background-color: #EE6983;
+  border: 1px solid #EE6983;
+}
+
+.btn-secondary:hover {
+  background-color: #d65a76;
+  color: #fff;
+  transform: scale(1.05);
+}
+
+
+h1, h2, p {
+  text-align: center;
+  margin: 0 0 20px 0;
+  color: #000;
+
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1rem;
+  color: #000;
+}
+.mision {
+  font-weight: bold;
+}
+
+.vision {
+  font-style: italic;
+}
+.mision, .vision {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  background-color: #d8d7d7;
+  border-left: 5px solid;
+  border-radius: 30px;
+}
+.parrafo {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+.prueba, .parrafo, .mision, .vision {
+  padding: 20px;
+  margin: 20px;
+  font-family: "Raleway", sans-serif; /* Aplicado de manera general */
+}

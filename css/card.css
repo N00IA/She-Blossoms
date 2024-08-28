@@ -1,0 +1,29 @@
+.card{
+    /*Fondo */
+    display: flex;
+    background-color: #EE6983;
+    border: 1px solid #EE6983;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: left;
+    padding: 15px;
+    justify-content: space-between;
+    width: 100%; /*No quitar*/
+    max-width: 600px ; /*No quitar*/
+}
+
+.card img{
+    width: 200px ;
+    height: auto;
+    border:1px solid#ddd;
+    margin-right: 10px;
+}
+
+.cont-imagen {
+    flex: 0 0 auto; /* No permite que el contenedor de la imagen se estire */
+}
+
+.card-img-top {
+    height: 150px;
+    object-fit: cover;
+}

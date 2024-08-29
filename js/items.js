@@ -1,4 +1,4 @@
-const products = [
+const products = JSON.parse(localStorage.getItem('product')) || [
 
   { id: 1, name: 'Peluche Capybara', description: 'Capybara almohada térmica', img: 'https://m.media-amazon.com/images/I/81sjyvkKStL.__AC_SX300_SY300_QL70_ML2_.jpg', price: '350', shop: 'Moon' },
   { id: 2, name: 'Cupcakes', description: 'Cupcakes sabor vainilla', img: 'https://scontent.fmex15-1.fna.fbcdn.net/v/t1.18169-9/22853102_355588044868006_1929324473630940193_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=7b2446&_nc_ohc=ENqV4oaQRcEQ7kNvgEkHPnM&_nc_ht=scontent.fmex15-1.fna&oh=00_AYBYtv0jkiprMfJ-yZUOcq7ifujlzuaeH-2XMlUazIOLrg&oe=66EE1B35', price: '250' },
@@ -23,7 +23,7 @@ console.log(products);
 // Función para agregar un producto al array
 function addProduct(product) {
 products.push(product);
-
+localStorage.setItem('product', JSON.stringify(product));
 
 }
 
@@ -32,6 +32,8 @@ function removeProduct(productId) {
 const index = products.findIndex(p => p.id === productId);
 if (index !== -1) {
     products.splice(index, 1);
+    localStorage.removeItem(productId);
+    console.log('Se ha eliminado el producto')
 }
 }
 

@@ -55,7 +55,15 @@
             <input type="password" class="form-control" id="confirmPassword" name="doubleCheck" placeholder="Confirmar contraseña">
         </div>
         <br>
-        <br>
+        <div class="form-group"> 
+            <label for="userType">Tipo de Usuario:</label>
+            <select id="userType" required>
+                <option value="">Seleccione un tipo</option>
+                <option value="vendedor">Vendedor</option>
+                <option value="comprador">Comprador</option>
+            </select>
+            <br><br> 
+        </div>
         <div class="form-check">
             <input class="form-check-input" type="checkbox" value="Notif" id="flexCheckDefault">
             <label class="form-check-label" for="flexCheckDefault">
@@ -69,14 +77,7 @@
             </label>
           </div>
             <br><br>
-        <div class="form-group"> 
-            <label for="typeRegister" class="form-group">Elige el tipo de cuenta que deseas crear</label>
-            <select id="typeUser" name="optionAccount">
-                <option value="usuario">Usuario</option>
-                <option value="vendedor">Vendedor</option>
-            </select>
-            <br><br> 
-        </div>
+      
             <button type="submit" class="btn btn-primary">Registrar</button>
             <!--<input type="submit" value="Agregar"> -->
         </form>

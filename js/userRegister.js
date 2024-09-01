@@ -23,6 +23,26 @@ function showAlert(message, type) {
     setTimeout(() => alertBox.remove(), 3000); // Elimina la alerta después de 3 segundos
 }
 
+// Función para verificar si el email o teléfono ya están registrados
+function isUserAlreadyRegistered(email, phone) {
+    return users.some(user => user.email === email || user.phone === phone);
+}
+
+/*Toralmente robado de chatgpt :'v */
+// Función para generar un ID único
+function generateUniqueId() {
+    // Obtén el timestamp actual en milisegundos
+    const timestamp = Date.now();
+
+    // Genera un número aleatorio de 16 caracteres hexadecimales
+    const randomPart = Math.random().toString(36).substr(2, 9);
+
+    // Combina ambos para crear un ID único
+    const uniqueId = `${timestamp}-${randomPart}`;
+
+    return uniqueId;
+}
+
 // Espera a que el contenido del DOM se cargue completamente
 document.addEventListener('DOMContentLoaded', function() {
     const userForm = document.getElementById('userForm');
@@ -37,10 +57,12 @@ document.addEventListener('DOMContentLoaded', function() {
         const email = document.getElementById('emailUser').value;
         const password = document.getElementById('password').value;
         const confirmPassword = document.getElementById('confirmPassword').value;
+        // userType = document.querySelector('input[name="userType"]:checked')?.value; // Obtiene el tipo de usuario seleccionado
+        const userType = document.getElementById('userType').value; // Obtiene el tipo de usuario seleccionado
         let valid = true;
 
-        // Genera un nuevo ID para el usuario
-        const newId = users.length ? Math.max(users.map(u => u.id)) + 1 : 1;
+          // Genera un nuevo ID para el usuario usando generateUniqueId
+          const newId = generateUniqueId();
 
         const newUser = {
             id: newId,
@@ -48,7 +70,8 @@ document.addEventListener('DOMContentLoaded', function() {
             phone: phone,
             email: email,
             password: password,
-            confirmPassword: confirmPassword
+            confirmPassword: confirmPassword,
+            userType: userType // Agrega el tipo de usuario al nuevo objeto
         };
 
         // Validación de campos vacíos
@@ -74,6 +97,13 @@ document.addEventListener('DOMContentLoaded', function() {
         // Validación de contraseñas que coincidan
         if (password !== confirmPassword) {
             showAlert('Las contraseñas no coinciden.', 'danger');
+            valid = false;
+        }
+
+
+        // Validación para verificar si el usuario ya está registrado
+        if (isUserAlreadyRegistered(email, phone)) {
+            showAlert('Ya existe un usuario con ese email o número de teléfono.', 'danger');
             valid = false;
         }
 

@@ -1,0 +1,259 @@
+.envios {
+    width: 1280px;
+    background-color: #fff;
+    height: 944px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: none;
+}
+.registro-e-inicio {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #fff;
+    width: 1429px;
+    height: 853px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.nombre-de-usuario {
+    position: relative;
+}
+.nombre-de-usuario-wrapper {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.frame-wrapper {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 223px;
+    height: 28px;
+}
+.group-child {
+    position: absolute;
+    top: 28px;
+    left: 0px;
+    border-radius: 20px;
+    background-color: #ffc4c4;
+    width: 430px;
+    height: 32.9px;
+}
+.group-container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 430px;
+    height: 60.9px;
+}
+.group-wrapper {
+    width: 430px;
+    position: relative;
+    height: 60.9px;
+}
+.frame-container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 121px;
+    height: 28px;
+}
+.frame-wrapper1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 122px;
+    height: 28px;
+}
+.email-wrapper {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(255, 245, 228, 0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.frame-wrapper2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 66px;
+    height: 28px;
+}
+.frame-wrapper3 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 112px;
+    height: 28px;
+}
+.frame-wrapper4 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 226px;
+    height: 28px;
+}
+.me-gustara-recibir {
+    margin: 0;
+}
+.frame-wrapper5 {
+    position: absolute;
+    top: 0px;
+    left: 28px;
+    width: 259px;
+    height: 38px;
+}
+.group-child3 {
+    position: absolute;
+    top: 5px;
+    left: 0px;
+    border-radius: 3px;
+    background-color: #fff5e4;
+    border: 1px solid #850e35;
+    box-sizing: border-box;
+    width: 24px;
+    height: 24px;
+}
+.group-parent1 {
+    width: 287px;
+    position: relative;
+    height: 38px;
+    font-size: 16px;
+}
+.frame-wrapper6 {
+    position: absolute;
+    top: 2px;
+    left: 29px;
+    width: 231px;
+    height: 19px;
+}
+.group-child4 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 3px;
+    background-color: #fff5e4;
+    border: 1px solid #850e35;
+    box-sizing: border-box;
+    width: 24px;
+    height: 24px;
+}
+.group-parent2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 260px;
+    height: 24px;
+}
+.group-frame {
+    width: 260px;
+    position: relative;
+    height: 24px;
+    font-size: 16px;
+}
+.registrar {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    text-decoration: underline;
+}
+.registrar-wrapper {
+    width: 107px;
+    position: relative;
+    height: 30px;
+}
+.frame-div {
+    align-self: stretch;
+    border-radius: 20px;
+    background-color: #850e35;
+    height: 54px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 57px;
+    box-sizing: border-box;
+    color: #fff5e4;
+    font-family: 'Racing Sans One';
+}
+.group-parent {
+    position: absolute;
+    top: 117px;
+    left: 25px;
+    width: 430px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 18px;
+}
+.registro-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 20px 20px 0px 0px;
+    background-color: #ffc4c4;
+    border: 1px solid #850e35;
+    box-sizing: border-box;
+    width: 479px;
+    height: 83px;
+}
+.registro-item {
+    position: absolute;
+    top: 81px;
+    left: 0px;
+    border-radius: 0px 0px 20px 20px;
+    border: 1px solid #850e35;
+    box-sizing: border-box;
+    width: 479px;
+    height: 703px;
+}
+.registro2 {
+    position: absolute;
+    top: 16px;
+    left: 160px;
+}
+.registro1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 479px;
+    height: 784px;
+}
+.registro-wrapper {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 479px;
+    height: 784px;
+    font-size: 40px;
+    color: #850e35;
+    font-family: 'Racing Sans One';
+}
+.registro {
+    position: absolute;
+    top: 52px;
+    left: 475px;
+    width: 479px;
+    height: 784px;
+}
+.registro-login {
+    width: 100%;
+    position: relative;
+    height: 853px;
+    text-align: center;
+    font-size: 24px;
+    color: #000;
+    font-family: Raleway;
+}
+

@@ -1,0 +1,527 @@
+.frame-parent {
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+.envios-wrapper {
+    position: relative; /* Cambia a relative para manejar mejor el posicionamiento */
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto; /* Centra el contenedor si es necesario */
+  }
+  
+  .envios {
+    position: relative; /* Cambia a relative para evitar que se salga del contenedor */
+    width: 100%;
+    height: auto; /* Ajusta la altura según el contenido */
+  }
+  
+.div {
+    align-self: stretch;
+    position: relative;
+}
+.parent {
+    position: absolute;
+    top: 0px;
+    left: 255px;
+    width: 92px;
+    height: 392px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 58px;
+}
+.subtotal {
+    align-self: stretch;
+    position: relative;
+    display: inline-block;
+    height: 31px;
+    flex-shrink: 0;
+}
+.opciones-de-envo {
+    align-self: stretch;
+    position: relative;
+    white-space: pre-wrap;
+    display: inline-block;
+    height: 55px;
+    flex-shrink: 0;
+}
+.total {
+    align-self: stretch;
+    position: relative;
+    display: inline-block;
+    height: 22px;
+    flex-shrink: 0;
+}
+.producto-1-parent {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 269px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 50px;
+}
+.group-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 20px;
+    background-color: #850e35;
+    width: 290.7px;
+    height: 54px;
+}
+.pagar {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 290.7px;
+    height: 54px;
+}
+.rectangle-parent {
+    position: absolute;
+    top: 411px;
+    left: 22px;
+    width: 290.7px;
+    height: 54px;
+    text-align: center;
+    color: #fff5e4;
+    font-family: 'Racing Sans One';
+}
+.frame-container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 312.7px;
+    height: 465px;
+}
+.frame-group {
+    position: absolute;
+    top: 107px;
+    left: 25px;
+    width: 347px;
+    height: 465px;
+}
+.group-item {
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    border-radius: 0px 0px 20px 20px;
+    background-color: rgba(255, 245, 228, 0);
+    border: 1px solid #962037;
+    box-sizing: border-box;
+    width: 384px;
+    height: 525px;
+}
+.group-inner {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 20px 20px 0px 0px;
+    background-color: #ffc4c4;
+    width: 384px;
+    height: 81px;
+}
+.resumen {
+    position: absolute;
+    top: 16px;
+    left: 119.06px;
+    display: flex;
+    align-items: flex-end;
+    width: 145.9px;
+}
+.group-wrapper {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 384px;
+    height: 81px;
+}
+.rectangle-group {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 384px;
+    height: 605px;
+    font-size: 32px;
+    color: #fff5e4;
+    font-family: 'Racing Sans One';
+}
+.group-container {
+    position: absolute;
+    top: 82px;
+    left: 822px;
+    width: 384px;
+    height: 605px;
+}
+.rectangle-div {
+    position: absolute;
+    top: 3px;
+    left: 0px;
+    border-radius: 0px 0px 20px 0px;
+    background-color: #ffc4c4;
+    width: 559px;
+    height: 50px;
+}
+.carrito-de-compra {
+    position: absolute;
+    top: 0px;
+    left: 133px;
+}
+.rectangle-parent1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 559px;
+    height: 53px;
+}
+.group-child1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 20px;
+    background-color: rgba(220, 15, 15, 0);
+    border: 1px solid #850e35;
+    box-sizing: border-box;
+    width: 710px;
+    height: 132px;
+}
+.image-16-icon {
+    align-self: stretch;
+    position: relative;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    height: 137px;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.image {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 8px;
+    width: 122px;
+    height: 105px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('Image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.cupcake-individual {
+    position: absolute;
+    top: 9px;
+    left: 146px;
+    font-size: 13px;
+    font-weight: 600;
+    display: inline-block;
+    width: 118px;
+}
+.sabor-del-da {
+    position: absolute;
+    top: 32px;
+    left: 146px;
+    display: inline-block;
+    width: 245px;
+    height: 87px;
+}
+.eliminar {
+    position: relative;
+    line-height: 100%;
+}
+.eliminar-wrapper {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 8px;
+    background-color: #850e35;
+    width: 96px;
+    height: 23px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.frame-wrapper {
+    position: absolute;
+    top: 79px;
+    left: 146px;
+    width: 96px;
+    height: 23px;
+    text-align: center;
+    color: #f5f5f5;
+    font-family: 'Racing Sans One';
+}
+.image-parent {
+    position: absolute;
+    top: 13px;
+    left: 54px;
+    width: 391px;
+    height: 119px;
+}
+.div5 {
+    position: absolute;
+    top: 0px;
+    left: 166px;
+}
+.agregar-a-lista {
+    position: relative;
+}
+.agregar-a-lista-de-deseos-wrapper {
+    position: absolute;
+    top: 65px;
+    left: 60px;
+    border-radius: 8px;
+    border: 1px solid #850e35;
+    box-sizing: border-box;
+    width: 168px;
+    height: 22px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    color: #850e35;
+}
+.group {
+    position: absolute;
+    top: 27px;
+    left: 448px;
+    width: 228px;
+    height: 87px;
+    font-size: 24px;
+}
+.rectangle-parent2 {
+    position: absolute;
+    top: 226px;
+    left: 4px;
+    width: 710px;
+    height: 132px;
+}
+.cupcake-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 125.9px;
+    height: 102.9px;
+    object-fit: contain;
+}
+.frame-wrapper1 {
+    position: absolute;
+    top: 77px;
+    left: 0px;
+    width: 96px;
+    height: 23px;
+    text-align: center;
+    color: #f5f5f5;
+    font-family: 'Racing Sans One';
+}
+.sabor-del-da1 {
+    position: absolute;
+    top: 23px;
+    left: 0px;
+    display: inline-block;
+    width: 245px;
+    height: 87px;
+}
+.set-4-cupcakes {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 13px;
+    font-weight: 600;
+    display: inline-block;
+    width: 192px;
+}
+.group-parent4 {
+    position: absolute;
+    top: 11.93px;
+    left: 155.74px;
+    width: 245px;
+    height: 110px;
+}
+.cupcake-parent {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 400.7px;
+    height: 121.9px;
+}
+.div7 {
+    position: absolute;
+    top: 1px;
+    left: 0px;
+}
+.agregar-a-lista-de-deseos-container {
+    position: absolute;
+    top: 72px;
+    left: 50px;
+    border-radius: 8px;
+    border: 1px solid #850e35;
+    box-sizing: border-box;
+    width: 168px;
+    height: 22px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    color: #850e35;
+}
+.div8 {
+    position: absolute;
+    top: 0px;
+    left: 155px;
+}
+.container {
+    position: absolute;
+    top: 16.93px;
+    left: 414.74px;
+    width: 218px;
+    height: 94px;
+    font-size: 24px;
+}
+.group-parent3 {
+    position: absolute;
+    top: 10.07px;
+    left: 43.26px;
+    width: 632.7px;
+    height: 121.9px;
+}
+.group-parent2 {
+    position: absolute;
+    top: 80px;
+    left: 4px;
+    width: 710px;
+    height: 132px;
+}
+.group-child3 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 20px;
+    background-color: #ffc4c4;
+    width: 714px;
+    height: 70px;
+}
+.producto {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.descripcion {
+    position: absolute;
+    top: 0px;
+    left: 195px;
+}
+.cantidad {
+    position: absolute;
+    top: 0px;
+    left: 384px;
+}
+.precio {
+    position: absolute;
+    top: 0px;
+    left: 577px;
+}
+.producto-parent {
+    position: absolute;
+    top: 17px;
+    left: 34px;
+    width: 650px;
+    height: 30px;
+}
+.rectangle-parent3 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 714px;
+    height: 70px;
+    font-size: 24px;
+    color: #850e35;
+    font-family: 'Racing Sans One';
+}
+.group-parent1 {
+    position: absolute;
+    top: 82px;
+    left: 74px;
+    width: 714px;
+    height: 358px;
+    font-size: 14px;
+    color: #000;
+    font-family: Raleway;
+}
+.group-div {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 788px;
+    height: 440px;
+    font-size: 40px;
+    color: #fff5e4;
+    font-family: 'Racing Sans One';
+}
+.group-parent {
+    position: absolute;
+    top: 9px;
+    left: 0px;
+    width: 1206px;
+    height: 687px;
+}
+.frame-parent {
+    width: 100%;
+    position: relative;
+    height: 755px;
+    text-align: left;
+    font-size: 24px;
+    color: #000;
+    font-family: Raleway;
+}
+
+@media (max-width: 1200px) {
+    .cards-parent {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards, .cards1, .cards2, .cards3 {
+        width: 90%;
+    }
+}
+@media (max-width: 768px) {
+    .cards, .cards1, .cards2, .cards3 {
+        width: 100%;
+        max-width: none;
+    }
+
+    .group-child {
+        width: 100%;
+        height: auto;
+    }
+
+    .sticker-regalos, .stickerland {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .sticker-regalos, .stickerland {
+        font-size: 18px;
+    }
+
+    .text-strong {
+        font-size: 14px;
+    }
+}

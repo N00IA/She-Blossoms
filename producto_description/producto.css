@@ -1,0 +1,381 @@
+
+body {
+    margin: 0;
+    line-height: normal;
+}
+
+
+.envios {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #fff;
+    width: 1280px;
+    height: 1018px;
+    overflow: hidden;
+}
+.image-9-icon {
+    width: 236px;
+    position: relative;
+    height: 226px;
+    object-fit: cover;
+}
+.cupcakes {
+    position: relative;
+    color: #850e35;
+}
+.div {
+    width: 203px;
+    position: relative;
+    font-size: 32px;
+    line-height: 140%;
+    font-weight: 600;
+    font-family: Inter;
+    display: inline-block;
+}
+.cupcakes-sabor-vainilla {
+    position: relative;
+    font-size: 15px;
+    white-space: pre-wrap;
+}
+.card-oficial {
+    width: 268px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    background-color: #fff;
+    border: 1px solid #ee6983;
+    box-sizing: border-box;
+    height: 378px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 16px;
+    gap: 7px;
+    min-width: 240px;
+}
+.card1 {
+    position: absolute;
+    top: 0px;
+    left: 292px;
+    width: 267px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.card11 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 267px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.cards {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 559px;
+    height: 378px;
+}
+.cards-wrapper {
+    position: absolute;
+    top: 617px;
+    left: 658px;
+    width: 559px;
+    height: 378px;
+}
+.cards-container {
+    position: absolute;
+    top: 617px;
+    left: 77px;
+    width: 559px;
+    height: 378px;
+}
+.tambin-te-puede {
+    position: absolute;
+    top: 569px;
+    left: 912px;
+    font-size: 24px;
+    text-align: center;
+}
+.comprar {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 736px;
+    height: 78px;
+}
+.group-container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 736px;
+    height: 78px;
+}
+.group-wrapper {
+    align-self: stretch;
+    position: relative;
+    height: 78px;
+}
+.producto-details-inner {
+    position: absolute;
+    top: 466px;
+    left: 481px;
+    border-radius: 20px;
+    background-color: #850e35;
+    width: 736px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: center;
+    font-size: 40px;
+    color: #fff5e4;
+    font-family: 'Racing Sans One';
+}
+.star-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 20.1px;
+    height: 18.4px;
+    overflow: hidden;
+}
+.star-icon1 {
+    position: absolute;
+    top: 0px;
+    left: 24.1px;
+    width: 20.1px;
+    height: 18.4px;
+    overflow: hidden;
+}
+.star-icon2 {
+    position: absolute;
+    top: 0px;
+    left: 48.21px;
+    width: 20.1px;
+    height: 18.4px;
+    overflow: hidden;
+}
+.star-icon3 {
+    position: absolute;
+    top: 0px;
+    left: 72.31px;
+    width: 20.1px;
+    height: 18.4px;
+    overflow: hidden;
+}
+.star-icon4 {
+    position: absolute;
+    top: 0px;
+    left: 96.42px;
+    width: 20.1px;
+    height: 18.4px;
+    overflow: hidden;
+}
+.star-parent {
+    position: absolute;
+    top: 355px;
+    left: 90px;
+    width: 116.5px;
+    height: 18.4px;
+}
+.div4 {
+    position: relative;
+    white-space: pre-wrap;
+}
+.wrapper {
+    position: absolute;
+    top: 304px;
+    left: 164px;
+    border-radius: 30px;
+    background-color: #fff5e4;
+    width: 126px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.container {
+    position: absolute;
+    top: 250px;
+    left: 164px;
+    border-radius: 30px;
+    background-color: #fff5e4;
+    width: 126px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.fresa {
+    position: relative;
+}
+.fresa-wrapper {
+    position: absolute;
+    top: 196px;
+    left: 164px;
+    border-radius: 30px;
+    background-color: #fff5e4;
+    width: 126px;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.caja-de-chocolates {
+    align-self: stretch;
+    position: relative;
+    font-size: 32px;
+    font-weight: 600;
+    font-family: Raleway;
+}
+.div6 {
+    align-self: stretch;
+    position: relative;
+    font-size: 48px;
+    font-weight: 600;
+    color: #850e35;
+    display: flex;
+    align-items: center;
+    height: 45px;
+    flex-shrink: 0;
+}
+.descripcin {
+    align-self: stretch;
+    position: relative;
+    color: rgba(0, 0, 0, 0.56);
+}
+.sabor {
+    align-self: stretch;
+    position: relative;
+}
+.disponibles {
+    width: 115px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.caja-de-chocolates-finos-20-parent {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 539px;
+    height: 271px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 29px;
+    font-size: 20px;
+}
+.group-parent {
+    position: absolute;
+    top: 50px;
+    left: 488px;
+    width: 539px;
+    height: 373.4px;
+    font-size: 15px;
+    font-family: Inter;
+}
+.fc4a6fc3af54297bdc24c5614bdb9b-icon {
+    position: absolute;
+    top: 437px;
+    left: 327px;
+    width: 107px;
+    height: 107px;
+    object-fit: cover;
+}
+.cdf49dbdc51585d8787f1696086c9-icon {
+    position: absolute;
+    top: 437px;
+    left: 201px;
+    width: 107px;
+    height: 107px;
+    object-fit: cover;
+}
+.de07b6d26ee8541c98daea4d3ce8ef-icon {
+    position: absolute;
+    top: 437px;
+    left: 77px;
+    width: 107px;
+    height: 107px;
+    object-fit: cover;
+}
+.fc4a6fc3af54297bdc24c5614bdb9b-icon1 {
+    position: absolute;
+    top: 50px;
+    left: 77px;
+    width: 357px;
+    height: 369px;
+    object-fit: cover;
+}
+.productos {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1280px;
+    height: 1018px;
+}
+.producto-description {
+    width: 100%;
+    position: relative;
+    height: 1018px;
+    text-align: left;
+    font-size: 22px;
+    color: #000;
+    font-family: Raleway;
+}
+@media (max-width: 1200px) {
+    .cards-parent {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards, .cards1, .cards2, .cards3 {
+        width: 90%;
+    }
+}
+@media (max-width: 768px) {
+    .cards, .cards1, .cards2, .cards3 {
+        width: 100%;
+        max-width: none;
+    }
+
+    .group-child {
+        width: 100%;
+        height: auto;
+    }
+
+    .sticker-regalos, .stickerland {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .sticker-regalos, .stickerland {
+        font-size: 18px;
+    }
+
+    .text-strong {
+        font-size: 14px;
+    }
+}

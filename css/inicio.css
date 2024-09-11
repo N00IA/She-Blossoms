@@ -1,0 +1,776 @@
+  /* colores
+  #FFF5E4 beige
+  #FFC4C4  peach
+  #EE6983  pink
+  #850E35  maroon*/
+
+
+body {
+    margin: 0;
+    line-height: normal;
+    background-color: #ffc4c4;
+    
+}
+
+.nete-ahora {
+    width: 352px;
+    position: relative;
+    text-decoration: underline;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 102px;
+    flex-shrink: 0;
+}
+.boton-unete {
+    position: absolute;
+    top: 2423px;
+    left: 765px;
+    border-radius: 20px;
+    background-color: #850e35;
+    width: 450px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.sabias-pregunta-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 20px;
+    background-color: #ee6983;
+    width: 450px;
+    height: 310px;
+}
+.sabas-qu-emprender {
+    margin: 0;
+}
+.sabas-qu-emprender-container1 {
+    width: 100%;
+}
+.sabas-qu-emprender-container {
+    position: absolute;
+    top: 0px;
+    left: 3px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    width: 444px;
+    height: 105px;
+}
+.sabias-pregunta-item {
+    position: absolute;
+    top: 105px;
+    left: 0px;
+    border-radius: 0px 0px 20px 20px;
+    background-color: #fff5e4;
+    border: 1px solid #ee6983;
+    box-sizing: border-box;
+    width: 450px;
+    height: 205px;
+}
+.nete-a-la-container {
+    position: absolute;
+    top: 116px;
+    left: 21px;
+    font-size: 24px;
+    line-height: 100%;
+    font-family: Raleway;
+    color: #ee6983;
+    display: flex;
+    align-items: center;
+    width: 408px;
+}
+.sabias-pregunta {
+    position: absolute;
+    top: 2096px;
+    left: 769px;
+    width: 450px;
+    height: 310px;
+    font-size: 36px;
+}
+.x-logo-icon {
+    position: absolute;
+    top: 2px;
+    left: 0px;
+    width: 50px;
+    height: 50px;
+}
+.logo-instagram-icon {
+    position: absolute;
+    top: 2px;
+    left: 83px;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+}
+.logo-youtube-icon {
+    position: absolute;
+    top: 0px;
+    left: 167px;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+}
+.linkedin-icon {
+    position: absolute;
+    top: 0px;
+    left: 250px;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+}
+.logos {
+    position: absolute;
+    top: 56px;
+    left: 237px;
+    width: 300px;
+    height: 52px;
+}
+.flor-2-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 152px;
+    height: 165px;
+    object-fit: cover;
+}
+.footer {
+    position: absolute;
+    top: 2818px;
+    left: 80px;
+    width: 537px;
+    height: 165px;
+}
+.group-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 30px;
+    width: 263px;
+    height: 217px;
+}
+.text1 {
+    flex: 1;
+    position: relative;
+    line-height: 140%;
+}
+.text {
+    position: absolute;
+    top: 78px;
+    left: 16px;
+    width: 238px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: center;
+}
+.text-heading1 {
+    position: relative;
+    text-decoration: underline;
+    letter-spacing: -0.02em;
+    line-height: 120%;
+    font-weight: 600;
+}
+.text-heading {
+    position: absolute;
+    top: 36px;
+    left: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 24px;
+}
+.natalia-css {
+    position: absolute;
+    top: 143px;
+    left: 120px;
+    text-decoration: underline;
+    line-height: 140%;
+    font-weight: 600;
+    color: #850e35;
+    display: flex;
+    align-items: center;
+    width: 141px;
+}
+.div {
+    position: absolute;
+    top: 167px;
+    left: 120px;
+    text-decoration: underline;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    width: 141px;
+}
+.image-19-icon {
+    position: absolute;
+    top: 134px;
+    left: 52px;
+    border-radius: 30.5px;
+    width: 62px;
+    height: 62px;
+    object-fit: cover;
+}
+.vector-parent {
+    position: absolute;
+    top: 0px;
+    left: 594px;
+    width: 263px;
+    height: 217px;
+}
+.vector-group {
+    position: absolute;
+    top: 0px;
+    left: 891px;
+    width: 263px;
+    height: 217px;
+}
+.vector-container {
+    position: absolute;
+    top: 0px;
+    left: 297px;
+    width: 263px;
+    height: 217px;
+}
+.group-div {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 263px;
+    height: 217px;
+}
+.card-comentario {
+    position: absolute;
+    top: 2559px;
+    left: 80px;
+    width: 1154px;
+    height: 217px;
+}
+.image-17-icon {
+    position: absolute;
+    top: 2089px;
+    left: 91px;
+    width: 646px;
+    height: 438px;
+    object-fit: cover;
+}
+.rectangle-amarillo-cards-icon {
+    position: absolute;
+    top: 721px;
+    left: 10px;
+    width: 1281px;
+    height: 1359px;
+}
+.ver-mas1 {
+    width: 125px;
+    position: relative;
+    text-decoration: underline;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 46px;
+    flex-shrink: 0;
+}
+.ver-mas {
+    position: absolute;
+    top: 1995px;
+    left: 555px;
+    border-radius: 20px;
+    background-color: #850e35;
+    width: 173px;
+    height: 60px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.image-9-icon {
+    width: 236px;
+    position: relative;
+    height: 226px;
+    object-fit: cover;
+}
+.cupcakes {
+    position: relative;
+    color: #850e35;
+}
+.div4 {
+    width: 203px;
+    position: relative;
+    font-size: 32px;
+    line-height: 140%;
+    font-weight: 600;
+    font-family: Inter;
+    display: inline-block;
+}
+.cupcakes-sabor-vainilla {
+    position: relative;
+    font-size: 15px;
+    white-space: pre-wrap;
+}
+.card-oficial {
+    width: 268px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    background-color: #fff;
+    border: 1px solid #ee6983;
+    box-sizing: border-box;
+    height: 378px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 16px;
+    gap: 7px;
+    min-width: 240px;
+}
+.card1 {
+    position: absolute;
+    top: 0px;
+    left: 292px;
+    width: 267px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.card11 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 267px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.cards1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 559px;
+    height: 378px;
+}
+.cards2 {
+    position: absolute;
+    top: 406px;
+    left: 0px;
+    width: 559px;
+    height: 378px;
+}
+.cards3 {
+    position: absolute;
+    top: 812px;
+    left: 0px;
+    width: 559px;
+    height: 378px;
+}
+.cards4 {
+    position: absolute;
+    top: 0px;
+    left: 583px;
+    width: 559px;
+    height: 378px;
+}
+.cards5 {
+    position: absolute;
+    top: 406px;
+    left: 583px;
+    width: 559px;
+    height: 378px;
+}
+.cards6 {
+    position: absolute;
+    top: 812px;
+    left: 583px;
+    width: 559px;
+    height: 378px;
+}
+.cards {
+    position: absolute;
+    top: 762px;
+    left: 80px;
+    width: 1142px;
+    height: 1190px;
+    text-align: left;
+    font-size: 22px;
+    color: #000;
+    font-family: Raleway;
+}
+.frame-child {
+    align-self: stretch;
+    position: relative;
+    background-color: #ee6983;
+    height: 73px;
+}
+.barra-unete-inner {
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    width: 1300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.unete-y-empieza {
+    position: absolute;
+    top: 22px;
+    left: 10px;
+    line-height: 100%;
+    display: inline-block;
+    width: 1280px;
+    height: 39px;
+}
+.barra-unete {
+    position: absolute;
+    top: 639px;
+    left: 0px;
+    width: 1300px;
+    height: 93px;
+    font-size: 40px;
+}
+.inicio-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #ffc4c4;
+    width: 1280px;
+    height: 559px;
+}
+.comprar-ahora {
+    position: relative;
+    text-decoration: underline;
+    line-height: 100%;
+}
+.comprar-ahora-wrapper {
+    position: absolute;
+    top: 383px;
+    left: 202px;
+    border-radius: 20px;
+    background-color: #850e35;
+    width: 311px;
+    height: 76px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.manos-1-icon {
+    position: absolute;
+    top: 198px;
+    left: 714px;
+    width: 524px;
+    height: 361px;
+    object-fit: cover;
+}
+.mujer-sin-fondo-amarillo-1 {
+    position: absolute;
+    top: 30px;
+    left: 796px;
+    width: 338px;
+    height: 368px;
+    object-fit: cover;
+}
+.la-mejor-forma {
+    margin: 0;
+    font-weight: 600;
+}
+.span {
+    font-family: 'Racing Sans One';
+}
+.la-mejor-forma-container {
+    position: absolute;
+    top: 93px;
+    left: 34px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    width: 647px;
+    height: 262px;
+    font-family: Raleway;
+}
+.inicio1 {
+    position: absolute;
+    top: 90px;
+    left: 9px;
+    width: 1280px;
+    height: 559px;
+    font-size: 40px;
+    color: #fff;
+}
+.nav-child {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    background-color: #fff5e4;
+}
+.title {
+    position: absolute;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+}
+.title-wrapper {
+    position: absolute;
+    height: 100%;
+    width: 22.41%;
+    top: 0%;
+    right: 77.59%;
+    bottom: 0%;
+    left: 0%;
+}
+.title-container {
+    position: absolute;
+    height: 100%;
+    width: 18.82%;
+    top: 0%;
+    right: 42.57%;
+    bottom: 0%;
+    left: 38.6%;
+}
+.title-frame {
+    position: absolute;
+    height: 100%;
+    width: 26.74%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 73.25%;
+}
+.group-parent {
+    position: absolute;
+    height: 24.24%;
+    width: 41.39%;
+    top: 40.4%;
+    right: 41.62%;
+    bottom: 35.35%;
+    left: 16.99%;
+    text-align: left;
+    font-family: Raleway;
+}
+.boton1 {
+    position: absolute;
+    height: 31.31%;
+    width: 10.37%;
+    top: 36.36%;
+    right: 13.41%;
+    bottom: 32.32%;
+    left: 76.23%;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid #850e35;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #850e35;
+}
+.flor-3-icon {
+    position: absolute;
+    height: 87.88%;
+    width: 6.24%;
+    top: 6.06%;
+    right: 87.99%;
+    bottom: 6.06%;
+    left: 5.77%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
+.shopping-cart-checkout-24dp-85 {
+    position: absolute;
+    height: 42.42%;
+    width: 3.27%;
+    top: 10.1%;
+    right: 7.56%;
+    bottom: 47.47%;
+    left: 89.17%;
+    overflow: hidden;
+}
+.vector-icon {
+    position: absolute;
+    height: 45.45%;
+    width: 3.66%;
+    top: 29.29%;
+    right: 7.17%;
+    bottom: 25.25%;
+    left: 89.17%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.registro {
+    position: relative;
+    line-height: 100%;
+}
+.boton2 {
+    position: absolute;
+    height: 31.31%;
+    width: 10.37%;
+    top: 36.36%;
+    right: 26.27%;
+    bottom: 32.32%;
+    left: 63.37%;
+    border-radius: 8px;
+    background-color: #850e35;
+    border: 1px solid #850e35;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #fff5e4;
+}
+.nav1 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+}
+.nav {
+    position: absolute;
+    top: 0px;
+    left: 9px;
+    width: 1281px;
+    height: 99px;
+    color: #ee6983;
+}
+.inicio {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1300px;
+    height: 2527px;
+    text-align: center;
+    font-size: 24px;
+    color: #fff5e4;
+    font-family: 'Racing Sans One';
+}
+.footer-parent {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1300px;
+    height: 2983px;
+    text-align: left;
+    font-size: 16px;
+    color: #ee6983;
+    font-family: Inter;
+}
+.boton-unete-parent {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1300px;
+    height: 2983px;
+}
+.pagina-principal {
+    width: 100%;
+    position: relative;
+    height: 2983px;
+    text-align: center;
+    font-size: 48px;
+    color: #fff5e4;
+    font-family: 'Racing Sans One';
+}
+
+.rectangle-div {
+    width: 100%;
+    position: relative;
+    border-radius: 0px 0px 100px 0px;
+    background-color: #fff5e4;
+    height: 759px;
+}
+
+
+
+@media (max-width: 1200px) {
+    .cards-parent {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards, .cards1, .cards2, .cards3 {
+        width: 90%;
+    }
+}
+@media (max-width: 768px) {
+    .cards, .cards1, .cards2, .cards3 {
+        width: 100%;
+        max-width: none;
+    }
+
+    .group-child {
+        width: 100%;
+        height: auto;
+    }
+
+    .sticker-regalos, .stickerland {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .sticker-regalos, .stickerland {
+        font-size: 18px;
+    }
+
+    .text-strong {
+        font-size: 14px;
+    }
+}
+
+
+/*Codigo nuevo */
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan si es necesario */
+    gap: 20px; /* Espacio entre los elementos, ajusta según sea necesario */
+}
+
+.card-comentario {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espacio entre los elementos, ajusta según sea necesario */
+}
+
+.vector-item {
+    flex: 1 1 calc(25% - 20px); /* Ajusta el ancho de los elementos y el espacio entre ellos */
+    box-sizing: border-box;
+    background: #f9f9f9; /* Fondo opcional para mejor visualización */
+    padding: 10px; /* Espacio interno opcional */
+}
+
+.group-child, .author-image {
+    max-width: 100%; /* Asegura que las imágenes no se salgan del contenedor */
+    height: auto;
+}
+
+.text, .text-heading, .author-name, .date {
+    margin: 5px 0; /* Espacio entre los elementos de texto */
+}

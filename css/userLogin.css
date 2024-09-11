@@ -1,0 +1,157 @@
+  /* colores
+  #FFF5E4 beige
+  #FFC4C4  peach
+  #EE6983  pink
+  #850E35  maroon*/
+
+  body{
+    background-image: "https://image.fluxpro.ai/custom/c3df04b7-8aae-4ff7-960f-a63f1eff358a.jpg";
+}
+
+form {
+    background-color: #FFF5E4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px;
+}
+
+
+
+#formContainer{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#title {
+    font-family: "Racing Sans One", sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: #850E35;
+    background-color: #FFC4C4;
+}
+
+.supBox {
+    background-color: #FFC4C4;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.regText {
+    font-size: 20px;
+    color: black;
+    font-family: "Raleway", sans-serif;
+}
+
+#userForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;    
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px #FFC4C4;
+
+}
+
+.form-group label{
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #ec64a8;
+    display: block;
+    
+    
+}
+
+.form-control{
+    border-radius: 10px; 
+    background-color: #FFC4C4 ;
+
+
+}
+/*voy usar el formato del boton que ya tenemos vaa*/
+    .btn-primary {
+    font-family:"Racing Sans One", sans-serif; ;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #850E35;
+    background-color:#850E35 !important;
+    border: 2px solid #0000;
+    border-radius: 6px;
+    box-shadow: 5px 5px 0px #0000;
+    transition: all 0.3s ease;
+  
+}
+.btn-primary:hover{
+    background-color:#0000;
+    color: #850E35;
+    border: 2px solid #850E35;
+    box-shadow: 5px 5px 5px #850E35;
+}
+.btn-primary:active{
+    background-color: #ffffff;
+    box-shadow: none;
+    transform: translateY(4px);
+}
+.alert{ 
+    border-radius: 4px;
+
+   }
+@media(max-width: 576px){
+    .container{
+        padding: 10px;
+    }
+   }
+   
+form{
+    padding: 15px;
+    
+   }
+
+/*   h2 {
+    color: #ec64a8;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+}*/
+.form-check {
+    margin-bottom: 1rem;
+    padding: 0.5rem 0;
+    background-color: var(#FFF5E4);
+    border-radius: 4px;
+    border: 1px solid var(#FFC4C4);
+}
+
+.form-check-input {
+    margin-right: 0.5rem;
+}
+
+.form-check-label {
+    color: var(#850E35);
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.form-check-input:checked {
+    background-color: var(#ec64a8);
+    border-color: var(#ec64a8);
+}
+
+

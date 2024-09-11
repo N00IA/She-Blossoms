@@ -30,7 +30,7 @@
 body {
     padding-top: 0;
     margin: 0;
-    display: flex;
+    /*display: flex; Es la que afecta al formulario*/ 
     justify-content: center;
     align-items: center;
     background-color: #FFF5E4;/* fondo completo*/

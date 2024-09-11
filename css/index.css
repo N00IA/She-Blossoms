@@ -37,7 +37,7 @@ body {
     padding: 0 1rem;
 }
 .flex{
-    display: flex;
+    display: center;
 }
 .flex-col{
     flex-direction: column;

@@ -1,0 +1,355 @@
+  /* colores
+  #FFF5E4 beige
+  #FFC4C4  peach
+  #EE6983  pink
+  #850E35  maroon*/
+body {
+    margin: 0;
+    line-height: normal;
+}
+
+.blank-line {
+    margin: 0;
+}
+.text {
+    align-self: stretch;
+    position: relative;
+    display: inline-block;
+    height: 968px;
+    flex-shrink: 0;
+}
+.pagos1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #fff;
+    width: 1280px;
+    height: 1143px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 26px 0px 23px;
+    box-sizing: border-box;
+}
+.pagos-wrapper {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1280px;
+    height: 1143px;
+}
+.group-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid #850e35;
+    box-sizing: border-box;
+    width: 806px;
+    height: 914px;
+}
+.group-item {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 20px;
+    background-color: #850e35;
+    width: 399.3px;
+    height: 73.6px;
+}
+.pagar {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    text-decoration: underline;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 399.3px;
+    height: 73.6px;
+}
+.rectangle-group {
+    position: absolute;
+    top: 777.68px;
+    left: 209.24px;
+    width: 399.3px;
+    height: 73.6px;
+    color: #fff5e4;
+    font-family: 'Racing Sans One';
+}
+.group-inner {
+    position: absolute;
+    top: 38.14px;
+    left: 0px;
+    border-radius: 20px;
+    background-color: #fff5e4;
+    width: 602.7px;
+    height: 44.8px;
+}
+.subtotal {
+    position: relative;
+}
+.subtotal-wrapper {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.frame-wrapper {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 98px;
+    height: 28px;
+}
+.rectangle-container {
+    position: absolute;
+    top: 657.92px;
+    left: 100.2px;
+    width: 602.7px;
+    height: 83px;
+}
+.rectangle-div {
+    position: absolute;
+    top: 38.14px;
+    left: 0px;
+    border-radius: 20px;
+    background-color: #fff5e4;
+    width: 599.7px;
+    height: 44.8px;
+}
+.frame-container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 147px;
+    height: 28px;
+}
+.group-div {
+    position: absolute;
+    top: 560.79px;
+    left: 103.14px;
+    width: 599.7px;
+    height: 83px;
+}
+.group-child1 {
+    position: absolute;
+    top: 38.14px;
+    left: 0px;
+    border-radius: 20px;
+    background-color: #fff5e4;
+    width: 598.2px;
+    height: 44.8px;
+}
+.frame-wrapper1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 109px;
+    height: 28px;
+}
+.rectangle-parent1 {
+    position: absolute;
+    top: 464.18px;
+    left: 103.14px;
+    width: 598.2px;
+    height: 83px;
+}
+.group-child2 {
+    position: absolute;
+    top: 38.14px;
+    left: 0px;
+    border-radius: 20px;
+    background-color: #fff5e4;
+    width: 134.1px;
+    height: 44.8px;
+}
+.frame-wrapper2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 53px;
+    height: 28px;
+}
+.rectangle-parent2 {
+    position: absolute;
+    top: 367.57px;
+    left: 565.82px;
+    width: 134.1px;
+    height: 83px;
+}
+.group-child3 {
+    position: absolute;
+    top: 38.14px;
+    left: 0px;
+    border-radius: 20px;
+    background-color: #fff5e4;
+    width: 372.8px;
+    height: 44.8px;
+}
+.frame-wrapper3 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 252px;
+    height: 28px;
+}
+.rectangle-parent3 {
+    position: absolute;
+    top: 367.57px;
+    left: 100.2px;
+    width: 372.8px;
+    height: 83px;
+}
+.group-child4 {
+    position: absolute;
+    top: 38.14px;
+    left: 0px;
+    border-radius: 20px;
+    background-color: #fff5e4;
+    width: 596.8px;
+    height: 44.8px;
+}
+.frame-wrapper4 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 207px;
+    height: 28px;
+}
+.rectangle-parent4 {
+    position: absolute;
+    top: 270.96px;
+    left: 104.62px;
+    width: 596.8px;
+    height: 83px;
+}
+.frame-wrapper5 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 264px;
+    height: 28px;
+}
+.rectangle-parent5 {
+    position: absolute;
+    top: 174.35px;
+    left: 100.2px;
+    width: 602.7px;
+    height: 83px;
+}
+.group-icon {
+    position: absolute;
+    height: 94.58%;
+    width: 22.11%;
+    top: 0%;
+    right: 51.57%;
+    bottom: 5.42%;
+    left: 26.32%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
+.mastercard-payment-method-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 101.7px;
+    height: 72.2px;
+    overflow: hidden;
+}
+.group-child6 {
+    position: absolute;
+    height: 100%;
+    width: 43.42%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 56.58%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.mastercard-payment-method-icon-parent {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 559.9px;
+    height: 75.6px;
+}
+.group-parent {
+    position: absolute;
+    height: 8.27%;
+    width: 69.47%;
+    top: 6.71%;
+    right: 15.18%;
+    bottom: 85.02%;
+    left: 15.36%;
+}
+.rectangle-parent {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 806px;
+    height: 914px;
+}
+.pagos-inner {
+    position: absolute;
+    top: 152px;
+    left: 231px;
+    width: 806px;
+    height: 914px;
+    text-align: center;
+}
+.pagos {
+    width: 100%;
+    position: relative;
+    height: 1143px;
+    text-align: left;
+    font-size: 24px;
+    color: #000;
+    font-family: Raleway;
+}
+
+@media (max-width: 1200px) {
+    .cards-parent {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards, .cards1, .cards2, .cards3 {
+        width: 90%;
+    }
+}
+@media (max-width: 768px) {
+    .cards, .cards1, .cards2, .cards3 {
+        width: 100%;
+        max-width: none;
+    }
+
+    .group-child {
+        width: 100%;
+        height: auto;
+    }
+
+    .sticker-regalos, .stickerland {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .sticker-regalos, .stickerland {
+        font-size: 18px;
+    }
+
+    .text-strong {
+        font-size: 14px;
+    }
+}

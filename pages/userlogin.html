@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Sesión</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/userLogin.css">
+</head>
+<body>
+
+ <!-- Navigation Bar -->
+ <div id="navbar-placeholder"></div>
+ <script src="/NAVBAR/navbar.js"></script>
+
+    <div class="container d-flex justify-content-center align-items-center vh-100">
+        <div class="card p-4 shadow-lg" style="width: 22rem;">
+            <h3 class="card-title text-center mb-4">Iniciar Sesión</h3>
+            <form id="loginForm">
+                <div class="mb-3">
+                    <label for="username" class="form-label">Nombre de Usuario</label>
+                    <input type="text" class="form-control" id="username" required>
+                    <div class="invalid-feedback">
+                        El nombre de usuario es obligatorio.
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Contraseña</label>
+                    <input type="password" class="form-control" id="password" required>
+                    <div class="invalid-feedback">
+                        La contraseña es obligatoria.
+                    </div>
+                </div>
+                <div id="errorMsg" class="text-danger mb-3" style="display: none;">
+                    Nombre de usuario o contraseña incorrectos.
+                </div>
+                <div>
+                    <input class="form-check-input" type="checkbox" value="Notif" id="flexCheckDefault">
+                    <p class="regText">Recordar usuario
+                        <br>
+                        <button class="forgot">Olvidé contraseña</button>
+                    </div>
+                <button type="submit" class="btn btn-primary w-100">Iniciar Sesión</button>
+                <!-- style="font-weight: bold; text-align: center; text-decoration: none; color: #ffffff;
+                background-color:#850E35; border: 2px solid #0000; border-radius: 6px; box-shadow: 5px 5px 0px #0000; transition: all 0.3s ease;"-->
+            </form>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/userlogin.js"></script>
+</body>
+</html>

@@ -1,0 +1,423 @@
+.envios {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #fff;
+    width: 1280px;
+    height: 842px;
+    overflow: hidden;
+}
+.envios-wrapper {
+    position: absolute;
+    top: 11px;
+    left: 3px;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #fff;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 1280px;
+    height: 755px;
+}
+.group-child {
+    position: absolute;
+    height: 14.21%;
+    top: 0%;
+    right: 0px;
+    bottom: 85.79%;
+    border-radius: 0px 0px 81.8px 0px;
+    background-color: #ee6983;
+    width: 1286px;
+}
+.gracias-por-comprar {
+    margin: 0;
+}
+.gracias-por-comprar-container1 {
+    width: 100%;
+}
+.gracias-por-comprar-container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-family: 'Racing Sans One';
+    color: #fff5e4;
+    display: flex;
+    align-items: center;
+    width: 1286px;
+    height: 104px;
+}
+.group-item {
+    position: absolute;
+    top: 76.71px;
+    left: 0px;
+    border-radius: 0px 0px 20px 20px;
+    background-color: rgba(255, 245, 228, 0);
+    border: 1px solid #962037;
+    box-sizing: border-box;
+    width: 492px;
+    height: 503.4px;
+}
+.div {
+    align-self: stretch;
+    position: relative;
+}
+.parent {
+    position: absolute;
+    top: 102.96px;
+    left: 358.16px;
+    width: 133.3px;
+    height: 376px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 58px;
+}
+.subtotal {
+    align-self: stretch;
+    position: relative;
+    display: inline-block;
+    height: 31px;
+    flex-shrink: 0;
+}
+.opciones-de-envo {
+    align-self: stretch;
+    position: relative;
+    white-space: pre-wrap;
+    display: inline-block;
+    height: 55px;
+    flex-shrink: 0;
+}
+.total {
+    align-self: stretch;
+    position: relative;
+    display: inline-block;
+    height: 22px;
+    flex-shrink: 0;
+}
+.producto-1-parent {
+    position: absolute;
+    top: 102.6px;
+    left: 32.03px;
+    width: 344.7px;
+    height: 354.8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 50px;
+}
+.group-inner {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 20px 20px 0px 0px;
+    background-color: #ffc4c4;
+    width: 492px;
+    height: 77.7px;
+}
+.resumen-de-tu {
+    position: absolute;
+    top: 27.96px;
+    left: 117.29px;
+    font-size: 20px;
+    color: #850e35;
+    display: flex;
+    align-items: center;
+    width: 257.5px;
+}
+.rectangle-group {
+    width: 492px;
+    position: relative;
+    height: 580.1px;
+}
+.group-frame {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 492px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.rectangle-div {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 0px 0px 16.36px 16.36px;
+    background-color: #fff5e4;
+    border: 1px solid #850e35;
+    box-sizing: border-box;
+    width: 492px;
+    height: 90px;
+}
+.rectangle-wrapper {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 492px;
+    height: 90px;
+}
+.cdigo-de-pedido-container {
+    position: absolute;
+    top: 0px;
+    left: 20.04px;
+    display: inline-block;
+    width: 284.4px;
+    height: 47px;
+}
+.vector-icon {
+    position: absolute;
+    height: 97.89%;
+    width: 16.39%;
+    top: 2.11%;
+    right: 83.61%;
+    bottom: 0%;
+    left: 0%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.cdigo-de-pedido-xxxxxxxxxxxx-parent {
+    position: absolute;
+    top: 16px;
+    left: 94px;
+    width: 304.5px;
+    height: 47.3px;
+}
+.group-div {
+    position: absolute;
+    top: 490px;
+    left: 0px;
+    width: 492px;
+    height: 90px;
+    text-align: center;
+    font-size: 19.63px;
+    color: #7b3e3e;
+}
+.frame-group {
+    position: absolute;
+    top: 152px;
+    left: 666px;
+    width: 492px;
+    height: 580.1px;
+    text-align: left;
+    font-size: 24px;
+}
+.group-child1 {
+    position: absolute;
+    top: 0px;
+    left: 1.28px;
+    border-radius: 16.36px 16.36px 0px 0px;
+    background-color: #ffc4c4;
+    width: 498.7px;
+    height: 81px;
+}
+.pedido-realizado-fecha-container {
+    width: 544px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 61px;
+    flex-shrink: 0;
+}
+.pago-confirmado-fecha-container {
+    width: 544px;
+    position: relative;
+    display: inline-block;
+    height: 61px;
+    flex-shrink: 0;
+}
+.pedido-realizado-fecha-parent {
+    position: absolute;
+    top: 189px;
+    left: 163px;
+    width: 177px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 19.6px;
+}
+.group-child2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 16.36px;
+    background-color: #850e35;
+    width: 324px;
+    height: 59px;
+}
+.ver-seguimiento {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 324px;
+    height: 59px;
+}
+.rectangle-parent1 {
+    position: absolute;
+    top: 483px;
+    left: 93px;
+    width: 324px;
+    height: 59px;
+    color: #fff5e4;
+    font-family: 'Racing Sans One';
+}
+.group-child3 {
+    position: absolute;
+    top: 92px;
+    left: 1.28px;
+    border-radius: 0px 0px 16.36px 16.36px;
+    background-color: rgba(255, 196, 196, 0);
+    border: 0.8px solid #850e35;
+    box-sizing: border-box;
+    width: 498.7px;
+    height: 488px;
+}
+.tu-pedido-est {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 20px;
+    color: #850e35;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 498.7px;
+    height: 81px;
+}
+.group-icon {
+    position: absolute;
+    top: 191px;
+    left: 63px;
+    width: 37px;
+    height: 232px;
+}
+.group-child4 {
+    position: absolute;
+    top: 81px;
+    left: 1.28px;
+    border-radius: 0px 0px 0px 40.9px;
+    background-color: #fff5e4;
+    border: 0.8px solid #850e35;
+    box-sizing: border-box;
+    width: 498.7px;
+    height: 68px;
+}
+.fecha-de-entrega {
+    position: absolute;
+    top: 92px;
+    left: 111.54px;
+    text-align: left;
+    display: inline-block;
+    width: 307.7px;
+    height: 21px;
+}
+.domicilio {
+    position: absolute;
+    top: 114px;
+    left: 111.54px;
+    text-align: left;
+    display: inline-block;
+    width: 307.7px;
+    height: 36px;
+}
+.vector-icon1 {
+    position: absolute;
+    height: 7.59%;
+    width: 12.06%;
+    top: 15.17%;
+    right: 79.99%;
+    bottom: 77.24%;
+    left: 7.95%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.rectangle-container {
+    width: 500px;
+    position: relative;
+    height: 580px;
+}
+.frame-div {
+    position: absolute;
+    top: 152px;
+    left: 117px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 19.63px;
+}
+.rectangle-parent {
+    position: absolute;
+    height: 100%;
+    top: 0%;
+    right: 0px;
+    bottom: 0%;
+    width: 1286px;
+}
+.group-container {
+    position: absolute;
+    height: 95.57%;
+    top: 0%;
+    right: 0px;
+    bottom: 4.43%;
+    width: 1286px;
+}
+.group-wrapper {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1286px;
+    height: 766px;
+}
+.group-parent {
+    width: 100%;
+    position: relative;
+    height: 766px;
+    text-align: center;
+    font-size: 29.45px;
+    color: #000;
+    font-family: Raleway;
+}
+
+@media (max-width: 1200px) {
+    .cards-parent {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards, .cards1, .cards2, .cards3 {
+        width: 90%;
+    }
+}
+@media (max-width: 768px) {
+    .cards, .cards1, .cards2, .cards3 {
+        width: 100%;
+        max-width: none;
+    }
+
+    .group-child {
+        width: 100%;
+        height: auto;
+    }
+
+    .sticker-regalos, .stickerland {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .sticker-regalos, .stickerland {
+        font-size: 18px;
+    }
+
+    .text-strong {
+        font-size: 14px;
+    }
+}

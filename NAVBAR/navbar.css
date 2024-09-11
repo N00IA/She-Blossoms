@@ -1,0 +1,14 @@
+/* colores
+  #FFF5E4 beige
+  #FFC4C4  peach
+  #EE6983  pink
+  #850E35  maroon*/
+.navbar {
+    background-color: #FFF5E4 !important; /*Segun chatgtp con important se logra sobre pasar la especificidad el Boostrap */
+}
+
+.btn {
+  text-align: center;
+  background-color: #850E35 !important;
+  color: #ffffff !important; 
+}

@@ -1,3 +1,4 @@
+
 document.addEventListener("DOMContentLoaded", function () {
     fetch('/NAVBAR/navbar.html')
         .then(response => {
@@ -11,5 +12,6 @@ document.addEventListener("DOMContentLoaded", function () {
         })
         .catch(error => {
             console.error(error);
+
         });
 });

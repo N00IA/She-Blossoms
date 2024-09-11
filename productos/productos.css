@@ -1,0 +1,184 @@
+.ver-mas1 {
+    width: 125px;
+    position: relative;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 46px;
+    flex-shrink: 0;
+}
+.ver-mas {
+    position: absolute;
+    top: 1274px;
+    left: 545px;
+    border-radius: 20px;
+    background-color: #850e35;
+    width: 173px;
+    height: 60px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.image-9-icon {
+    width: 236px;
+    position: relative;
+    height: 226px;
+    object-fit: cover;
+}
+.cupcakes {
+    position: relative;
+    color: #850e35;
+}
+.div {
+    width: 203px;
+    position: relative;
+    font-size: 32px;
+    line-height: 140%;
+    font-weight: 600;
+    font-family: Inter;
+    display: inline-block;
+}
+.cupcakes-sabor-vainilla {
+    position: relative;
+    font-size: 15px;
+    white-space: pre-wrap;
+}
+.card-oficial {
+    width: 268px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    background-color: #fff;
+    border: 1px solid #ee6983;
+    box-sizing: border-box;
+    height: 378px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 16px;
+    gap: 7px;
+    min-width: 240px;
+}
+.card1 {
+    position: absolute;
+    top: 0px;
+    left: 292px;
+    width: 267px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.card11 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 267px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.cards1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 559px;
+    height: 378px;
+}
+.cards2 {
+    position: absolute;
+    top: 406px;
+    left: 0px;
+    width: 559px;
+    height: 378px;
+}
+.cards3 {
+    position: absolute;
+    top: 812px;
+    left: 0px;
+    width: 559px;
+    height: 378px;
+}
+.cards4 {
+    position: absolute;
+    top: 0px;
+    left: 583px;
+    width: 559px;
+    height: 378px;
+}
+.cards5 {
+    position: absolute;
+    top: 406px;
+    left: 583px;
+    width: 559px;
+    height: 378px;
+}
+.cards6 {
+    position: absolute;
+    top: 812px;
+    left: 583px;
+    width: 559px;
+    height: 378px;
+}
+.cards {
+    position: absolute;
+    top: 41px;
+    left: 70px;
+    width: 1142px;
+    height: 1190px;
+    text-align: left;
+    font-size: 22px;
+    color: #000;
+    font-family: Raleway;
+}
+.pagina-principal-inner {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1281px;
+    height: 1359px;
+}
+.pagina-principal {
+    position: absolute;
+    top: 125px;
+    left: 0px;
+    width: 1281px;
+    height: 1359px;
+}
+.group-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #ffc4c4;
+    width: 1280px;
+    height: 125px;
+}
+.regalos {
+    position: absolute;
+    top: 22px;
+    left: 524px;
+}
+.rectangle-parent {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1280px;
+    height: 125px;
+    text-align: left;
+    font-size: 64px;
+    color: #850e35;
+}
+.pagina-principal-parent {
+    width: 100%;
+    position: relative;
+    height: 1484px;
+    text-align: center;
+    font-size: 24px;
+    color: #fff5e4;
+    font-family: 'Racing Sans One';
+}
+

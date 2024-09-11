@@ -1,0 +1,255 @@
+.group-child {
+  	position: sticky;
+  	top: 0px;
+  	left: 0px;
+  	background-color: #fff5e4;
+  	width: 1283px;
+  	height: 99px;
+}
+.title {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	line-height: 100%;
+}
+.title-wrapper {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 119px;
+  	height: 24px;
+}
+.title-container {
+  	position: absolute;
+  	top: 0px;
+  	left: 205px;
+  	width: 100px;
+  	height: 24px;
+}
+.title-frame {
+  	position: absolute;
+  	top: 0px;
+  	left: 389px;
+  	width: 142px;
+  	height: 24px;
+}
+.group-container {
+  	position: absolute;
+  	top: 40px;
+  	left: 218px;
+  	width: 531px;
+  	height: 24px;
+  	text-align: left;
+  	font-family: Raleway;
+}
+.inicio {
+  	position: relative;
+  	line-height: 100%;
+}
+.boton1 {
+  	position: absolute;
+  	top: 36px;
+  	left: 978px;
+  	border-radius: 8px;
+  	background-color: rgba(255, 255, 255, 0);
+  	border: 1px solid #850e35;
+  	box-sizing: border-box;
+  	width: 133px;
+  	height: 31px;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	color: #850e35;
+}
+.flor-3-icon {
+  	position: absolute;
+  	top: 6px;
+  	left: 74px;
+  	width: 80px;
+  	height: 87px;
+  	object-fit: cover;
+}
+.shopping-cart-checkout-24dp-85 {
+  	position: absolute;
+  	top: 10px;
+  	left: 1144px;
+  	width: 42px;
+  	height: 42px;
+  	overflow: hidden;
+}
+.vector-icon {
+  	position: absolute;
+  	height: 45.45%;
+  	width: 3.66%;
+  	top: 29.29%;
+  	right: 7.17%;
+  	bottom: 25.25%;
+  	left: 89.17%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.boton2 {
+  	position: absolute;
+  	top: 36px;
+  	left: 813px;
+  	border-radius: 8px;
+  	background-color: #850e35;
+  	border: 1px solid #850e35;
+  	box-sizing: border-box;
+  	width: 133px;
+  	height: 31px;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	color: #fff5e4;
+}
+.group-wrapper {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 1283px;
+  	height: 99px;
+}
+.group-parent {
+  	width: 100%;
+  	position: relative;
+  	height: 99px;
+  	text-align: center;
+  	font-size: 24px;
+  	color: #ee6983;
+  	font-family: 'Racing Sans One';
+}
+
+/* Estilo general */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Para pantallas de escritorio grandes */
+@media (min-width: 1024px) {
+    .group-child {
+        width: 100%;
+        height: 99px;
+    }
+
+    .group-container {
+        left: 218px;
+        width: auto; /* Para que se ajuste automáticamente al contenido */
+    }
+
+    .boton1, .boton2 {
+        width: 133px;
+        height: 31px;
+    }
+
+    .flor-3-icon {
+        width: 80px;
+        height: 87px;
+    }
+}
+
+/* Para tabletas (pantallas medianas) */
+@media (max-width: 1024px) {
+    .group-container {
+        width: 80%; /* Ajustar el contenedor del grupo */
+        left: 10%;
+    }
+
+    .boton1, .boton2 {
+        width: 100px;
+        height: 28px;
+    }
+
+    .flor-3-icon {
+        width: 60px;
+        height: 60px;
+    }
+
+    .shopping-cart-checkout-24dp-85 {
+        width: 35px;
+        height: 35px;
+    }
+
+    .vector-icon {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+/* Para móviles (pantallas pequeñas) */
+@media (max-width: 768px) {
+    .group-child {
+        width: 100%;
+        height: auto;
+    }
+
+    .group-container {
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        left: 5%;
+        top: 50px;
+    }
+
+    .boton1, .boton2 {
+        width: 80px;
+        height: 24px;
+        font-size: 14px;
+    }
+
+    .flor-3-icon {
+        width: 40px;
+        height: 40px;
+        top: 10px;
+    }
+
+    .shopping-cart-checkout-24dp-85 {
+        width: 25px;
+        height: 25px;
+    }
+
+    .vector-icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .title {
+        font-size: 18px;
+        margin: 5px 0;
+    }
+
+    .group-parent {
+        height: auto;
+    }
+}
+
+.title a {
+    text-decoration: none;
+    color: #850e35; /* O el color que prefieras */
+}
+
+.title a:hover {
+    color: #ee6983; /* O el color que prefieras al hacer hover */
+}
+
+
+#navbar-container {
+    position: relative;
+    z-index: 1000; /* Asegúrate de que esté encima de otros elementos */
+}
+
+a {
+    text-decoration: none; /* Quita el subrayado */
+    color: inherit; /* Usa el color del texto que esté asignado en su contenedor */
+}
+
+a:hover {
+    color: #850e35; /* Cambia el color al pasar el ratón (opcional) */
+    text-decoration: none; /* Asegura que siga sin subrayado al hacer hover */
+}

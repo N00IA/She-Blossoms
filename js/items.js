@@ -1,3 +1,4 @@
+
 const products = JSON.parse(localStorage.getItem('product')) || [
 
   { id: 1, name: 'Peluche Capybara', description: 'Capybara almohada térmica', img: 'https://m.media-amazon.com/images/I/81sjyvkKStL.__AC_SX300_SY300_QL70_ML2_.jpg', price: '350', shop: 'Moon' },
@@ -17,28 +18,27 @@ const products = JSON.parse(localStorage.getItem('product')) || [
 console.log(products);
 
 
-
 //Muestra el fomrulario para agregar producto
 
 // Función para agregar un producto al array
 function addProduct(product) {
 products.push(product);
 localStorage.setItem('product', JSON.stringify(product));
-
 }
 
 // Función para eliminar un producto del array
 function removeProduct(productId) {
+
 const index = products.findIndex(p => p.id === productId);
 if (index !== -1) {
     products.splice(index, 1);
     localStorage.removeItem(productId);
     console.log('Se ha eliminado el producto')
 }
-}
 
 // Función para manejar la eliminación de un producto y la actualización de la vista
 function removeProductAndRender(productId) {
+
 removeProduct(productId);
 displayProducts();
 console.log(products);
@@ -46,6 +46,7 @@ console.log(products);
 
 // Espera a que el contenido del DOM se cargue completamente
 document.addEventListener('DOMContentLoaded', function() {
+  
 const formContainer = document.getElementById('formContainer');
 const showFormButton = document.getElementById('showFormButton');
 const productForm = document.getElementById('productForm');
@@ -93,15 +94,12 @@ productForm.addEventListener('submit', function(event) {
 
     displayProducts();
 });
-});
-
-
-
 
 
 
 // Mostrar productos en la interfaz
 function displayProducts() {
+
 const container = document.getElementById("card-container");
 container.innerHTML = ""; // Limpiar el contenedor antes de agregar nuevos productos
 
@@ -123,10 +121,11 @@ products.forEach(product => {
 
     container.appendChild(card);
 });
-}
+
 
 // Función de inicio
 function init() {
+
 displayProducts();
 
 }

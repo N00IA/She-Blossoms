@@ -1,0 +1,151 @@
+.group-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 499px;
+    height: 83px;
+}
+.group-item {
+    position: absolute;
+    top: 82px;
+    left: 0px;
+    border-radius: 0px 0px 20px 20px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid #850e35;
+    box-sizing: border-box;
+    width: 499px;
+    height: 359px;
+}
+.inicio-inner {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 499px;
+    height: 441px;
+}
+.iniciar-sesion {
+    position: absolute;
+    top: 22.27px;
+    left: 105px;
+    font-size: 40px;
+    line-height: 100%;
+    font-family: 'Racing Sans One';
+    color: #850e35;
+    display: inline-block;
+    width: 249px;
+    height: 40.5px;
+}
+.olvidaste-tu-contrasea {
+    position: absolute;
+    top: 234.85px;
+    left: 100px;
+}
+.inicio-child {
+    position: absolute;
+    top: 121px;
+    left: 37px;
+    border-radius: 20px;
+    background-color: #ffc4c4;
+    width: 407px;
+    height: 32.9px;
+}
+.email {
+    position: relative;
+}
+.email-wrapper {
+    position: absolute;
+    top: 93px;
+    left: 37px;
+    background-color: rgba(255, 196, 196, 0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.iniciar {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    text-decoration: underline;
+}
+.iniciar-wrapper {
+    width: 74px;
+    position: relative;
+    height: 30px;
+}
+.frame-div {
+    position: absolute;
+    top: 341px;
+    left: 105px;
+    border-radius: 20px;
+    background-color: #850e35;
+    width: 271px;
+    height: 54px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 57px;
+    box-sizing: border-box;
+    color: #fff5e4;
+    font-family: 'Racing Sans One';
+}
+.group-inner {
+    position: absolute;
+    top: 28px;
+    left: 0px;
+    border-radius: 20px;
+    background-color: #ffc4c4;
+    width: 407px;
+    height: 32.9px;
+}
+.password-wrapper {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(255, 196, 196, 0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.frame-wrapper {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 112px;
+    height: 28px;
+}
+.rectangle-parent {
+    position: absolute;
+    top: 163.92px;
+    left: 37px;
+    width: 407px;
+    height: 60.9px;
+}
+.recordarme {
+    position: absolute;
+    top: 281px;
+    left: 72px;
+}
+.inicio-item {
+    position: absolute;
+    top: 283px;
+    left: 37px;
+    border-radius: 3px;
+    background-color: #fff5e4;
+    border: 1px solid #850e35;
+    box-sizing: border-box;
+    width: 24px;
+    height: 24px;
+}
+.inicio {
+    width: 100%;
+    position: relative;
+    height: 441px;
+    text-align: center;
+    font-size: 24px;
+    color: #000;
+    font-family: Raleway;
+}
+

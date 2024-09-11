@@ -1,41 +1,37 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="initial-scale=1, width=device-width">
-    <link rel="stylesheet"  href="/NAVBAR/navbar.css" />       
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Racing+Sans+One:wght@400&display=swap" />
-</head>
 
-<body>
-    <div id="navbar-container"></div>
-    <div class="group-parent">
-        
-                <div class="group-child"></div>
-                <div class="group-container">
-                    <div class="title-wrapper">
-                        <a class="title" href="/productos/productos.html">Productos</a>
-                    </div>
-                    <div class="title-container">                        
-                        <a class="title" href="/NOSOTRAS/nosotras.html">Nosotras</a>
-                    </div>
-                    <div class="title-frame">
-                        <a class="title" href="/pages/compras.html">Mis compras</a>
-                    </div>
-                </div>
-                <div class="boton1">
-                    <a class="inicio" href="/inicio_de_sesion/login/login.html">Inicio</a>
-                </div>
-                <a href="/inicio/index.html">
-                    <img class="flor-3-icon" alt="" src="/img/images/flor 3.png">
-                </a>
-                <a href="/inicio_de_sesion/registro/registro.html">
-                    <img class="vector-icon" alt="" src="Vector.svg">
-                </a>
-                    <div class="boton2">
-                    <a class="inicio" href="/inicio_de_sesion/registro/registro.html">Registro</a>
-                </div>
+<!-- navbar.html -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">She blossoms</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button> 
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="/index.html">Página Principal</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/pages/items.html">Lista de Items</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/pages/form.html">Formulario</a> <!--Ya esta vinculado el formulario final-->
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/pages/about.html">Acerca de Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/pages/contact.html">Contáctenos</a>
+                </li>
+            </ul>
+                <div>
+                <!--button class="btn btn-outline-success my-2 my-sm-0" type="register" formaction="/pages/userRegister.html">Registro</button> -->
+                <a href="/pages/userRegister.html" class="btn btn-outline-success my-2 my-sm-0 mr-2" role="button">Registro</a>
+                <a href="/pages/userRegister.html" class="btn btn-outline-success my-2 my-sm-0" role="button">Inicio</a>
+                <!--mr-2 hace un pequeño espacio entre los botones-->
+
+            </div>
+        </div>
     </div>
-</body>
-</html>
+</nav>
+

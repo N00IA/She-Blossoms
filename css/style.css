@@ -1,0 +1,146 @@
+  /* colores
+  #FFF5E4 beige
+  #FFC4C4  peach
+  #EE6983  pink
+  #850E35  maroon*/
+
+body{
+    padding-top: 0px;
+    font-family: "Raleway", sans-serif;
+}
+
+h1 {
+    color: #ec64a8;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    background-color: #EE6983;
+    justify-content: space-between;
+    max-width: 300px;
+    height: 100%;
+    padding: 15px;
+    border: 1px solid #ccc
+
+}
+
+.card-title {
+    color: rgb(26, 4, 10);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-image {
+    max-width: 100%;
+    min-height: 100px;
+    object-fit: cover;
+    justify-content: space-between;
+
+}
+
+.card-content {
+    flex: 1;
+    padding: 10px;
+}
+
+#card-container {
+    /*background-color: rgb(94, 2, 89);*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+button{
+   margin: 10px;
+}
+
+.btn button{
+    padding: 10px 20px ;
+    font-size: 1rem ;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: backgroud-color 0.3s, transform 0.2s;
+
+}
+.btn-primary{
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #850E35;
+    background-color: #FFC4C4;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px #EE6983;
+    transition: all 0.3s ease;
+}
+.btn-primary:hover{
+    background-color: #FFC4C4;
+    color: #850E35;
+    border: 2px solid #850E35;
+    box-shadow: 5px 5px 0px #EE6983;
+}
+.btn-primary:active{
+    background-color: #FFC4C4;
+    box-shadow: none;
+    transform: translateY();
+}
+.btn-secondary{
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #850E35;
+    background-color: #FFC4C4;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px #EE6983;
+    transition: all 0.3s ease;
+}
+
+.btn-secondary:hover{
+    background-color: #FFC4C4;
+    color: #850E35;
+    border: 2px solid #850E35;
+    box-shadow: 5px 5px 0px #EE6983;
+}
+
+.btn-secondary:active{
+    background-color: #FFC4C4;
+    box-shadow: none;
+    transform: translateY();
+}
+
+ /* Estilos para ocultar el formulario y el botón de eliminar inicialmente */
+ #formContainer {
+    display: none;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 10px;
+    width: 300px;
+    background-color: #f9f9f9;
+}
+.deleteButton{
+    display: none;
+}
+
+.card button {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none; /* Oculta el botón de eliminar inicialmente */
+}
+
+.card button.show {
+    display: block; /* Muestra el botón de eliminar si tiene la clase "show" */
+}
+
+
+

@@ -1,0 +1,130 @@
+/* colores
+  #FFF5E4 beige
+  #FFC4C4  peach
+  #EE6983  pink
+  #850E35  maroon
+  
+  font-family: "Raleway", sans-serif; 
+
+<link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.raleway-<uniquifier> {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.racing-sans-one-regular {
+  font-family: "Racing Sans One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+  */
+ 
+body {
+    padding-top: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF5E4;/* fondo completo*/
+    font-family:"Racing Sans One", sans-serif;
+height: 100vh;
+}
+
+h1, h2 {
+    font-family:"Racing Sans One", sans-serif;
+    color: #850E35;
+}
+
+h2 {
+    font-weight: 600;
+}
+
+form {
+    border-radius: 8%;
+    box-shadow: 0 4px 8px rgba(39, 2, 2, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+    background-color:#FFC4C4 ;/*fondo cuadro chiquito*/
+}
+
+.mb-3 {
+    margin-bottom: 20px; 
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background-color:#ffffff ; /* FONDO FORMULARIO*/
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 25px rgba(206, 13, 13, 0.1);
+
+}
+
+
+.form-label{
+    display: block;
+    margin-bottom: .5rem;
+    font-weight: 600;
+    font-family: "Raleway", sans-serif;
+
+}
+.form control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #FFC4C4;
+    background-color: #ffff;
+    background-clip: padding-box;
+    border:1px solid #FFC4C4 ;
+    border-radius:.25rem ;
+    box-shadow: inset 0 1px 2px rgba(221, 12, 12, 0.1);
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out ;
+}
+
+
+.form-control:focus{
+    border-color: #ec64a8;
+    box-shadow: 0 0 0 0.2rem rgba(236, 100, 168, 0.25); ;
+    outline: 0;   
+}
+.btn-primary{
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color:#850E35;
+    border: 2px solid #0000;
+    border-radius: 6px;
+    box-shadow: 5px 5px 0px #0000;
+    transition: all 0.3s ease;
+    
+}  
+
+
+.btn-primary:hover{
+    background-color:#0000;
+    color: #850E35;
+    border: 2px solid #850E35;
+    box-shadow: 5px 5px 5px #850E35;
+}
+.btn-primary:active{
+    background-color: #ffffff;
+    box-shadow: none;
+    transform: translateY(4px);
+}
+   
+#alertPlaceholder{
+    margin-bottom: 30px;
+}
+

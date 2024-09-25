@@ -8,16 +8,15 @@
 
   body {
     font-family: "Raleway", sans-serif; /* Aplicado de manera general */
+    background-color: #FFF5E4;
   }
 
 .title{
     background-color: #EE6983;
     text-align: center ;
     border-bottom-right-radius: 60px;  /*hace el borde redondo*/
-    
     margin: 20px;
     height: auto;
-    color:white;
     padding: 20px;
     justify-content: center;
     text-transform: uppercase;
@@ -34,35 +33,31 @@
     border-radius: 8px;
     border: 2px solid  #850E35;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-
     padding: 20px;
     justify-content: center;
+    background-color: #EE6983;
+
      
 }
 
 .card{
     /*Fondo */
     display: flex;
-    background-color: #EE6983;
-    border: 1px solid #EE6983;
-    border-radius: 10px;
+    
+    border-radius: 10px solid #850E35;;
     overflow: hidden;
     text-align: left;
     padding: 15px;
     justify-content: space-between;
     width: 100%; /*No quitar*/
     max-width: 600px ; /*No quitar*/
-}
-
-.card {
     flex-direction: row; /* Por defecto, las imágenes estarán a la izquierda */
 }
-
 
 .card img{
     width: 200px ;
     height: auto;
-    border:1px solid#ddd;
+    border:1px solid #EE6983;
     margin-right: 10px;
 }
 
@@ -83,38 +78,6 @@
     flex: 1; /* Permite que el contenido ocupe el espacio restante */
 }
 
-/*
-.prueba{
-    padding: 20px;
-    margin: 20px;    
-};
-
-.parrafo{
-    font-family:"Raleway", sans-serif;
-    font-size: 1.2rem;
-    line-height: 1.6;
-    margin: 20px;
-}
-.mision, .vision{
- 
-    font-size: 1.2rem;
-    line-height: 1.6;
-    margin: 20px;
-    padding: 15px;
-    background-color: #d8d7d7;
-    border-left: 5px solid;
-    border-radius: 30px;
-
-    
-}
- .mision{
-    font-weight: bold;
- }
- .vision{
-    font-style: italic;
- }
-*/
-
 /*Simplificado*/
 /* Estilos para prueba y párrafos */
 .prueba, .parrafo, .mision, .vision {
@@ -127,6 +90,10 @@
 .parrafo {
     font-size: 1.2rem;
     line-height: 1.6;
+    margin: 20px;
+    font-family: "Raleway", sans-serif;
+    background-color: #FFC4C4;
+
 }
 
 /* Estilos para misiones y visiones */
@@ -176,10 +143,14 @@
  .bg-6{
     background-color: #EE6983;
     align-content: center;
+    border: 10px solid #FFC4C4;
+    font-family: "Racing Sans One";
+  
 }
 
+
 .glitch {
-    color: white;
+    color: #000;
     font-size: 25px;
     position:relative;
     width: 100%;

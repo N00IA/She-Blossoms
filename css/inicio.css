@@ -8,9 +8,19 @@
 body {
     margin: 0;
     line-height: normal;
-    background-color: #ffc4c4;
+    background-color: #ffc4c4; 
+    font-family: 'Raleway', sans-serif;
+  
     
 }
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan si es necesario */
+    gap: 20px; /* Espacio entre los elementos, ajusta según sea necesario */
+    justify-content: center;
+    padding: 20px;
+}
+
 
 .nete-ahora {
     width: 352px;
@@ -24,7 +34,7 @@ body {
     flex-shrink: 0;
 }
 .boton-unete {
-    position: absolute;
+    position: relative;
     top: 2423px;
     left: 765px;
     border-radius: 20px;
@@ -36,8 +46,9 @@ body {
     align-items: center;
     justify-content: center;
 }
+
 .sabias-pregunta-child {
-    position: absolute;
+    position: relative;
     top: 0px;
     left: 0px;
     border-radius: 20px;
@@ -52,7 +63,7 @@ body {
     width: 100%;
 }
 .sabas-qu-emprender-container {
-    position: absolute;
+    position: relative;
     top: 0px;
     left: 3px;
     line-height: 100%;
@@ -62,7 +73,7 @@ body {
     height: 105px;
 }
 .sabias-pregunta-item {
-    position: absolute;
+    position: relative;
     top: 105px;
     left: 0px;
     border-radius: 0px 0px 20px 20px;
@@ -73,7 +84,7 @@ body {
     height: 205px;
 }
 .nete-a-la-container {
-    position: absolute;
+    position: relative;
     top: 116px;
     left: 21px;
     font-size: 24px;
@@ -85,7 +96,7 @@ body {
     width: 408px;
 }
 .sabias-pregunta {
-    position: absolute;
+    position: relative;
     top: 2096px;
     left: 769px;
     width: 450px;
@@ -93,14 +104,14 @@ body {
     font-size: 36px;
 }
 .x-logo-icon {
-    position: absolute;
+    position: relative;
     top: 2px;
     left: 0px;
     width: 50px;
     height: 50px;
 }
 .logo-instagram-icon {
-    position: absolute;
+    position: relative;
     top: 2px;
     left: 83px;
     width: 50px;
@@ -108,7 +119,7 @@ body {
     overflow: hidden;
 }
 .logo-youtube-icon {
-    position: absolute;
+    position: relative;
     top: 0px;
     left: 167px;
     width: 50px;
@@ -116,7 +127,7 @@ body {
     overflow: hidden;
 }
 .linkedin-icon {
-    position: absolute;
+    position: relative;
     top: 0px;
     left: 250px;
     width: 50px;
@@ -124,14 +135,14 @@ body {
     overflow: hidden;
 }
 .logos {
-    position: absolute;
+    position: relative;
     top: 56px;
     left: 237px;
     width: 300px;
     height: 52px;
 }
 .flor-2-icon {
-    position: absolute;
+    position: relative;
     top: 0px;
     left: 0px;
     width: 152px;
@@ -146,7 +157,7 @@ body {
     height: 165px;
 }
 .group-child {
-    position: absolute;
+    position: relative;
     top: 0px;
     left: 0px;
     border-radius: 30px;
@@ -159,7 +170,7 @@ body {
     line-height: 140%;
 }
 .text {
-    position: absolute;
+    position: relative;
     top: 78px;
     left: 16px;
     width: 238px;
@@ -187,7 +198,7 @@ body {
     font-size: 24px;
 }
 .natalia-css {
-    position: absolute;
+    position: relative;
     top: 143px;
     left: 120px;
     text-decoration: underline;
@@ -232,7 +243,7 @@ body {
     height: 217px;
 }
 .vector-container {
-    position: absolute;
+    position: relative;
     top: 0px;
     left: 297px;
     width: 263px;
@@ -246,7 +257,8 @@ body {
     height: 217px;
 }
 .card-comentario {
-    position: absolute;
+    display: flex;
+    position: relative;
     top: 2559px;
     left: 80px;
     width: 1154px;
@@ -267,6 +279,7 @@ body {
     width: 1281px;
     height: 1359px;
 }
+/*
 .ver-mas1 {
     width: 125px;
     position: relative;
@@ -277,20 +290,21 @@ body {
     justify-content: center;
     height: 46px;
     flex-shrink: 0;
-}
+}*/
 .ver-mas {
-    position: absolute;
-    top: 1995px;
-    left: 555px;
     border-radius: 20px;
     background-color: #850e35;
     width: 173px;
-    height: 60px;
-    overflow: hidden;
+    height: 60px; 
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
+}
+.ver-mas a {
+    color: #FFF5E4; 
+    text-decoration: none; 
+    display: block
 }
 .image-9-icon {
     width: 236px;
@@ -424,7 +438,7 @@ body {
     box-sizing: border-box;
 }
 .unete-y-empieza {
-    position: absolute;
+    position: relative;
     top: 22px;
     left: 10px;
     line-height: 100%;
@@ -441,33 +455,31 @@ body {
     font-size: 40px;
 }
 .inicio-child {
-    position: absolute;
+    position: relative;
     top: 0px;
     left: 0px;
     background-color: #ffc4c4;
     width: 1280px;
     height: 559px;
 }
-.comprar-ahora {
-    position: relative;
-    text-decoration: underline;
-    line-height: 100%;
-}
 .comprar-ahora-wrapper {
-    position: absolute;
-    top: 383px;
-    left: 202px;
     border-radius: 20px;
     background-color: #850e35;
-    width: 311px;
-    height: 76px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    width: 80%;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 15px;
 }
+
+.comprar-ahora {
+    color: #FFF5E4;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
 .manos-1-icon {
-    position: absolute;
+    position: relative;
     top: 198px;
     left: 714px;
     width: 524px;
@@ -475,7 +487,7 @@ body {
     object-fit: cover;
 }
 .mujer-sin-fondo-amarillo-1 {
-    position: absolute;
+    position: relative;
     top: 30px;
     left: 796px;
     width: 338px;
@@ -490,7 +502,7 @@ body {
     font-family: 'Racing Sans One';
 }
 .la-mejor-forma-container {
-    position: absolute;
+    position: relative;
     top: 93px;
     left: 34px;
     line-height: 100%;
@@ -501,7 +513,7 @@ body {
     font-family: Raleway;
 }
 .inicio1 {
-    position: absolute;
+    position: relative;
     top: 90px;
     left: 9px;
     width: 1280px;
@@ -510,7 +522,7 @@ body {
     color: #fff;
 }
 .nav-child {
-    position: absolute;
+    position: relative;
     height: 100%;
     width: 100%;
     top: 0%;
@@ -520,7 +532,7 @@ body {
     background-color: #fff5e4;
 }
 .title {
-    position: absolute;
+    position: relative;
     width: 100%;
     top: 0%;
     left: 0%;
@@ -529,7 +541,7 @@ body {
     align-items: center;
 }
 .title-wrapper {
-    position: absolute;
+    position: relative;
     height: 100%;
     width: 22.41%;
     top: 0%;
@@ -538,7 +550,7 @@ body {
     left: 0%;
 }
 .title-container {
-    position: absolute;
+    position: relative;
     height: 100%;
     width: 18.82%;
     top: 0%;
@@ -547,7 +559,7 @@ body {
     left: 38.6%;
 }
 .title-frame {
-    position: absolute;
+    position: relative;
     height: 100%;
     width: 26.74%;
     top: 0%;
@@ -556,7 +568,7 @@ body {
     left: 73.25%;
 }
 .group-parent {
-    position: absolute;
+    position: relative;
     height: 24.24%;
     width: 41.39%;
     top: 40.4%;
@@ -567,7 +579,7 @@ body {
     font-family: Raleway;
 }
 .boton1 {
-    position: absolute;
+    position: relative;
     height: 31.31%;
     width: 10.37%;
     top: 36.36%;
@@ -586,7 +598,7 @@ body {
     color: #850e35;
 }
 .flor-3-icon {
-    position: absolute;
+    position: relative;
     height: 87.88%;
     width: 6.24%;
     top: 6.06%;
@@ -599,7 +611,7 @@ body {
     object-fit: cover;
 }
 .shopping-cart-checkout-24dp-85 {
-    position: absolute;
+    position: relative;
     height: 42.42%;
     width: 3.27%;
     top: 10.1%;
@@ -609,7 +621,7 @@ body {
     overflow: hidden;
 }
 .vector-icon {
-    position: absolute;
+    position: relative;
     height: 45.45%;
     width: 3.66%;
     top: 29.29%;
@@ -625,7 +637,7 @@ body {
     line-height: 100%;
 }
 .boton2 {
-    position: absolute;
+    position: relative;
     height: 31.31%;
     width: 10.37%;
     top: 36.36%;
@@ -644,7 +656,7 @@ body {
     color: #fff5e4;
 }
 .nav1 {
-    position: absolute;
+    position: relative;
     height: 100%;
     width: 100%;
     top: 0%;
@@ -653,7 +665,7 @@ body {
     left: 0%;
 }
 .nav {
-    position: absolute;
+    position: relative;
     top: 0px;
     left: 9px;
     width: 1281px;
@@ -661,7 +673,7 @@ body {
     color: #ee6983;
 }
 .inicio {
-    position: absolute;
+    position: relative;
     top: 0px;
     left: 0px;
     width: 1300px;
@@ -672,7 +684,7 @@ body {
     font-family: 'Racing Sans One';
 }
 .footer-parent {
-    position: absolute;
+    position: relative;
     top: 0px;
     left: 0px;
     width: 1300px;
@@ -683,7 +695,7 @@ body {
     font-family: Inter;
 }
 .boton-unete-parent {
-    position: absolute;
+    position: relative;
     top: 0px;
     left: 0px;
     width: 1300px;
@@ -747,16 +759,25 @@ body {
 
 
 /*Codigo nuevo */
-.container {
-    display: flex;
-    flex-wrap: wrap; /* Permite que los elementos se envuelvan si es necesario */
-    gap: 20px; /* Espacio entre los elementos, ajusta según sea necesario */
-}
 
 .card-comentario {
     display: flex;
     flex-wrap: wrap;
     gap: 20px; /* Espacio entre los elementos, ajusta según sea necesario */
+    justify-content: center;
+}
+.card1, .card11 {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-oficial {
+    text-align:right;
 }
 
 .vector-item {
@@ -773,4 +794,9 @@ body {
 
 .text, .text-heading, .author-name, .date {
     margin: 5px 0; /* Espacio entre los elementos de texto */
+}
+
+#posted-comment {
+    position: relative;
+    padding: 10px;
 }

@@ -4,11 +4,21 @@
   #EE6983  pink
   #850E35  maroon*/
 .navbar {
-    background-color: #FFF5E4 !important; /*Segun chatgtp con important se logra sobre pasar la especificidad el Boostrap */
+    background-color: #FFF5E4; /*Segun chatgtp con important se logra sobre pasar la especificidad el Boostrap */
 }
 
-.btn {
+.navbar .nav-link {
+  color: #EE6983;
+}
+
+.navbar .btn {
   text-align: center;
-  background-color: #850E35 !important;
-  color: #ffffff !important; 
+  background-color: #850E35;
+  color: #ffffff; 
+  border: 2px solid #850E35; 
+}
+
+
+.navbar .btn:hover {
+  border-color: #ffffff; 
 }

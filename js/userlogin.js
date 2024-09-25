@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
         password: "contraseña_segura"
     };
     localStorage.setItem("user", JSON.stringify(storedUser));
+    
 
     const loginForm = document.getElementById("loginForm");
     const errorMsg = document.getElementById("errorMsg");
@@ -29,14 +30,18 @@ document.addEventListener("DOMContentLoaded", function() {
             document.getElementById("password").classList.remove("is-invalid");
         }
 
+
         // Validación de credenciales
         const userData = JSON.parse(localStorage.getItem("user"));
         if (userData.username === usernameInput && userData.password === passwordInput) {
             // Redirigir a la página de inicio si las credenciales son correctas
-            window.location.href = "inicio.html";
+            window.location.href = "/pages/indexC.html";
         } else {
             // Mostrar mensaje de error si las credenciales son incorrectas
             errorMsg.style.display = "block";
         }
+
+
     });
+    
 });

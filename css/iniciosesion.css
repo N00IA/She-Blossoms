@@ -3,15 +3,9 @@
   #FFC4C4  peach
   #EE6983  pink
   #850E35  maroon*/
-  :root {
-    --beige: #FFF5E4;
-    --peach: #FFC4C4;
-    --pink: #EE6983;
-    --maroon: #850E35;
-}
 
   body{
-    background-image: ("https://image.fluxpro.ai/custom/c3df04b7-8aae-4ff7-960f-a63f1eff358a.jpg");
+    background-image: "https://image.fluxpro.ai/custom/c3df04b7-8aae-4ff7-960f-a63f1eff358a.jpg";
 }
 
 .card {
@@ -100,13 +94,13 @@ input {
 
 }
 /*voy usar el formato del boton que ya tenemos vaa*/
-    .btn-primary {
+.btn-primary {
     font-family:"Racing Sans One", sans-serif;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
     color: white;
-    background-color:#850E35;
+    background-color:#850E35 !important; 
     border: 2px solid #0000;
     border-radius: 6px;
     box-shadow: 5px 5px 0px #0000;

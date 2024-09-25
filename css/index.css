@@ -4,21 +4,37 @@
   #EE6983  pink
   #850E35  maroon*/
 
+  /*background-color:  #FFC4C4;*/
+
   body {
     font-family: 'Raleway', sans-serif;
-    background-color:  #FFC4C4;
     margin: 0;
     padding: 0;
-
 }
-#navbar-placeholder{
+
+#navbar-placeholder {
     margin-bottom: 20px;
 }
-.Racing Sans One-font {
-    font-family: 'Racing', sans-serif;
+
+.Racing-Sans-One-font {
+    font-family: 'Racing Sans One', sans-serif;
 }
-body {
-    font-family: 'Helvetica', sans-serif;
+.pics {
+    width: 220px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.footer-parent {
+    background-color: #FFC4C4;
+    padding: 10px;
+    text-align: center;
+    color: #850E35;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+
 }
 
 .custom-button {
@@ -31,65 +47,136 @@ body {
     background-color: #a34e60;
     color: #850E35;
 }
-.container{
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
     max-width: 1200px;
     margin: auto;
     padding: 0 1rem;
+    justify-content: center;
 }
-.flex{
-    display: center;
+
+.flex {
+    display: flex;
 }
-.flex-col{
+
+.flex-col {
     flex-direction: column;
 }
-.items-center{
+
+.items-center {
     align-items: center;
 }
-.tex-center{
+
+.text-center {
     text-align: center;
 }
 
-h1.josefin-font{
+h1.josefin-font {
     font-family: "Racing Sans One", sans-serif;
-    color: #850E35 ;
+    color: #850E35;
 }
 
-.rounded-lg{
+.rounded-lg {
     border-radius: 0.5rem;
- 
 }
-.shadow-md{
-    box-shadow: 0 4px 6px rgb(0,0,0,0.1);
+
+.shadow-md {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-.overflow-hidden{
+
+.overflow-hidden {
     overflow: hidden;
 }
-.w-full{
+
+.w-full {
     width: 100%;
 }
-.p-4{
+
+.p-4 {
     padding: 1rem;
 }
 
-span.text.lg{
+span.text-lg {
     font-size: 1.12rem;
 }
-.far.fa-star{
+
+.far.fa-star {
     color: #FFC4C4;
 }
-@media(min-width: 640px){
-    .sm\:grid-cols-4{
+
+@media(min-width: 640px) {
+    .sm-grid-cols-4 {
         grid-template-columns: repeat(4, 1fr);
     }
 }
 
-@media (min-width: 768px) {
-    .md\:grid-cols-4 {
+@media(min-width: 768px) {
+    .md-grid-cols-4 {
         grid-template-columns: repeat(4, 1fr);
     }
 }
 
-.grid{
+.grid {
     display: grid;
+}
+
+/*Esto de abajo es lo del banner de hasta arriba*/
+.inicio1 {
+    background-color: #f7b6c6; /* Color de fondo */
+    position: relative;
+    padding: 40px 20px;
+    text-align: center;
+    overflow: hidden;
+}
+.la-mejor-forma {
+    font-size: 1.5rem;
+    color: #FFF5E4;
+    
+}
+.comprar-ahora {
+    background-color: #682633;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+.comprar-ahora:hover {
+    background-color: #88474f;
+}
+.manos-1-icon,
+.mujer-sin-fondo-amarillo-1 {
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: 1;
+    
+}
+.manos-1-icon {
+    bottom: 0;
+    left: 20%;
+}
+.mujer-sin-fondo-amarillo-1 {
+    top: 5%;
+    right: 70%;
+    width: 23%;
+}
+/*----------*/
+.card-img-top {
+    height: 200px; /* Ajusta la altura según necesites */
+    object-fit: contain; /* Mantiene la imagen completa dentro del espacio */
+    width: 100%; /* Asegura que la imagen ocupe todo el ancho de la tarjeta */
+    /*object-fit: cover;  Mantiene la proporción y recorta si es necesario */
+}
+
+/*--------------*/
+.compra{
+    background-color: #FFC4C4;
+}
+
+.btn-sub{
+    color: #FFF5E4;
 }
 

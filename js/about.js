@@ -54,7 +54,7 @@ let team = [
 
     },
     { //9
-        name: 'Monse',
+        name: 'Monse Ayala',
         position:'Front end developer',
         img: '/img/monse.jpg', 
         description: 'Soy apasionada por el desarrollo  web y Licenciada en Derecho, radicó en la Ciudad de México. Activamente colaboró con el equipo de desarrollo en el proyecto “She Blossoms”. Me gusta aprender y compartir mis conocimientos con la finalidad de cumplir la meta deseada.',
